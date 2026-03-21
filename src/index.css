@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-slate-800 font-sans antialiased m-0 p-0 selection:bg-indigo-100 selection:text-indigo-900 overflow-hidden;
+  }
+}
+
+/* Beautiful Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-xl border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)];
+  }
+  .glass-panel-hover {
+    @apply hover:bg-white/90 hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-300;
+  }
+  .bento-card {
+    @apply bg-white rounded-3xl overflow-hidden relative shadow-[0_8px_30px_rgb(0,0,0,0.03)] border border-slate-100;
+  }
+}
