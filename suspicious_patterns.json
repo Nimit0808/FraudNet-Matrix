@@ -1,0 +1,262 @@
+[
+    {
+        "id": "TXN_L_367bb6a3",
+        "sender_acc_id": "ACC_010",
+        "receiver_acc_id": "ACC_020",
+        "amount": 49956.93,
+        "currency": "USD",
+        "timestamp": "2026-02-25T12:14:28.269092",
+        "channel_id": "CH_RTGS",
+        "pattern_label": "LAYERING"
+    },
+    {
+        "id": "TXN_L_d1d1a4c6",
+        "sender_acc_id": "ACC_020",
+        "receiver_acc_id": "ACC_030",
+        "amount": 49914.89,
+        "currency": "USD",
+        "timestamp": "2026-02-25T12:16:28.269092",
+        "channel_id": "CH_RTGS",
+        "pattern_label": "LAYERING"
+    },
+    {
+        "id": "TXN_L_8cc8360f",
+        "sender_acc_id": "ACC_030",
+        "receiver_acc_id": "ACC_040",
+        "amount": 49884.7,
+        "currency": "USD",
+        "timestamp": "2026-02-25T12:18:28.269092",
+        "channel_id": "CH_RTGS",
+        "pattern_label": "LAYERING"
+    },
+    {
+        "id": "TXN_L_813d1dac",
+        "sender_acc_id": "ACC_040",
+        "receiver_acc_id": "ACC_050",
+        "amount": 49857.82,
+        "currency": "USD",
+        "timestamp": "2026-02-25T12:20:28.269092",
+        "channel_id": "CH_RTGS",
+        "pattern_label": "LAYERING"
+    },
+    {
+        "id": "TXN_C_435e451d",
+        "sender_acc_id": "ACC_060",
+        "receiver_acc_id": "ACC_070",
+        "amount": 75000.0,
+        "currency": "USD",
+        "timestamp": "2026-03-07T16:12:28.269092",
+        "channel_id": "CH_SWIFT",
+        "pattern_label": "CIRCULAR"
+    },
+    {
+        "id": "TXN_C_13571fb6",
+        "sender_acc_id": "ACC_070",
+        "receiver_acc_id": "ACC_080",
+        "amount": 75000.0,
+        "currency": "USD",
+        "timestamp": "2026-03-07T17:12:28.269092",
+        "channel_id": "CH_SWIFT",
+        "pattern_label": "CIRCULAR"
+    },
+    {
+        "id": "TXN_C_df2e0f32",
+        "sender_acc_id": "ACC_080",
+        "receiver_acc_id": "ACC_090",
+        "amount": 75000.0,
+        "currency": "USD",
+        "timestamp": "2026-03-07T20:12:28.269092",
+        "channel_id": "CH_SWIFT",
+        "pattern_label": "CIRCULAR"
+    },
+    {
+        "id": "TXN_C_1cf150f1",
+        "sender_acc_id": "ACC_090",
+        "receiver_acc_id": "ACC_060",
+        "amount": 75000.0,
+        "currency": "USD",
+        "timestamp": "2026-03-07T21:12:28.269092",
+        "channel_id": "CH_SWIFT",
+        "pattern_label": "CIRCULAR"
+    },
+    {
+        "id": "TXN_S_OUT_da567caf",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_002",
+        "amount": 9500.0,
+        "currency": "USD",
+        "timestamp": "2026-03-12T11:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_4c0eefa6",
+        "sender_acc_id": "ACC_002",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9500.0,
+        "currency": "USD",
+        "timestamp": "2026-03-15T14:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    },
+    {
+        "id": "TXN_S_OUT_ce230477",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_002",
+        "amount": 9800.0,
+        "currency": "USD",
+        "timestamp": "2026-03-12T14:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_ca67de04",
+        "sender_acc_id": "ACC_002",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9800.0,
+        "currency": "USD",
+        "timestamp": "2026-03-13T17:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    },
+    {
+        "id": "TXN_S_OUT_f184a5fa",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_002",
+        "amount": 9200.0,
+        "currency": "USD",
+        "timestamp": "2026-03-12T15:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_1eaf3a4a",
+        "sender_acc_id": "ACC_002",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9200.0,
+        "currency": "USD",
+        "timestamp": "2026-03-14T18:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    },
+    {
+        "id": "TXN_S_OUT_e6fcd7ec",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_003",
+        "amount": 9500.0,
+        "currency": "USD",
+        "timestamp": "2026-03-12T17:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_1d167d77",
+        "sender_acc_id": "ACC_003",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9500.0,
+        "currency": "USD",
+        "timestamp": "2026-03-13T21:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    },
+    {
+        "id": "TXN_S_OUT_c7bb5faf",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_003",
+        "amount": 9800.0,
+        "currency": "USD",
+        "timestamp": "2026-03-12T19:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_65b33b43",
+        "sender_acc_id": "ACC_003",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9800.0,
+        "currency": "USD",
+        "timestamp": "2026-03-14T23:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    },
+    {
+        "id": "TXN_S_OUT_0dbb679b",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_003",
+        "amount": 9200.0,
+        "currency": "USD",
+        "timestamp": "2026-03-12T22:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_3322933a",
+        "sender_acc_id": "ACC_003",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9200.0,
+        "currency": "USD",
+        "timestamp": "2026-03-16T01:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    },
+    {
+        "id": "TXN_S_OUT_272cdb7b",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_004",
+        "amount": 9500.0,
+        "currency": "USD",
+        "timestamp": "2026-03-13T01:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_f2a27159",
+        "sender_acc_id": "ACC_004",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9500.0,
+        "currency": "USD",
+        "timestamp": "2026-03-15T02:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    },
+    {
+        "id": "TXN_S_OUT_5c5a77db",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_004",
+        "amount": 9800.0,
+        "currency": "USD",
+        "timestamp": "2026-03-13T03:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_5b73fee9",
+        "sender_acc_id": "ACC_004",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9800.0,
+        "currency": "USD",
+        "timestamp": "2026-03-14T04:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    },
+    {
+        "id": "TXN_S_OUT_4d262557",
+        "sender_acc_id": "ACC_001",
+        "receiver_acc_id": "ACC_004",
+        "amount": 9200.0,
+        "currency": "USD",
+        "timestamp": "2026-03-13T04:12:28.269092",
+        "channel_id": "CH_NEFT",
+        "pattern_label": "STRUCTURING_FAN_OUT"
+    },
+    {
+        "id": "TXN_S_IN_b56280eb",
+        "sender_acc_id": "ACC_004",
+        "receiver_acc_id": "ACC_005",
+        "amount": 9200.0,
+        "currency": "USD",
+        "timestamp": "2026-03-14T05:12:28.269092",
+        "channel_id": "CH_UPI",
+        "pattern_label": "STRUCTURING_FAN_IN"
+    }
+]
