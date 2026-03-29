@@ -1,16 +1,16 @@
 import { useState, useEffect, useMemo } from 'react';
-import ReactFlow, {
-    Background,
-    Controls,
+import ReactFlow, { 
+    Background, 
+    Controls, 
     MarkerType,
     useNodesState,
     useEdgesState
 } from 'reactflow';
 import 'reactflow/dist/style.css';
-import {
-    Search, Clock, ChevronRight,
-    Download, LayoutDashboard, Users, FileBarChart, Settings, MapPin, Smartphone, CreditCard, Sparkles,
-    TrendingUp, AlertTriangle, CheckCircle, Box, Phone, Globe, User, LogOut, ShieldAlert
+import { 
+    Search, Clock, ChevronRight, 
+    Download, LayoutDashboard, Users, FileBarChart, Settings, MapPin, Smartphone, CreditCard, Sparkles, ShieldAlert,
+    TrendingUp, AlertTriangle, CheckCircle, Box, Phone, Globe, User, LogOut
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { format } from 'date-fns';
@@ -21,21 +21,22 @@ import { format } from 'date-fns';
 const CustomNode = ({ data, selected }) => {
     const isHighRisk = data.risk === 'high';
     const isSafe = data.risk === 'low';
-
+    
     let Icon = CreditCard;
     if (data.label?.includes('Branch')) Icon = MapPin;
     if (data.label?.includes('Device')) Icon = Smartphone;
 
     return (
-        <div className={`p-3 rounded-full border bg-white flex flex-col items-center justify-center transition-all duration-300 w-[120px] h-[120px] ${selected ? 'border-[#005b9f] shadow-[0_0_0_3px_rgba(0,91,159,0.3)]' :
-            isHighRisk ? 'border-[#e02020] shadow-[0_0_10px_rgba(224,32,32,0.4)]' :
-                isSafe ? 'border-[#108e40] shadow-[0_2px_5px_rgba(0,0,0,0.1)]' :
-                    'border-gray-300 shadow-[0_2px_5px_rgba(0,0,0,0.1)] hover:border-gray-400'
-            }`}>
+        <div className={`p-3 rounded-full border bg-white flex flex-col items-center justify-center transition-all duration-300 w-[120px] h-[120px] ${
+            selected ? 'border-[#005b9f] shadow-[0_0_0_3px_rgba(0,91,159,0.3)]' : 
+            isHighRisk ? 'border-[#e02020] shadow-[0_0_10px_rgba(224,32,32,0.4)]' : 
+            isSafe ? 'border-[#108e40] shadow-[0_2px_5px_rgba(0,0,0,0.1)]' :
+            'border-gray-300 shadow-[0_2px_5px_rgba(0,0,0,0.1)] hover:border-gray-400'
+        }`}>
             <div className={`flex items-center justify-center mb-1 ${isHighRisk ? 'text-[#e02020]' : isSafe ? 'text-[#108e40]' : 'text-[#005b9f]'}`}>
                 <Icon size={28} />
             </div>
-
+            
             <div className="text-[12px] font-bold text-gray-800 leading-tight text-center truncate w-full px-1">
                 {data.customer || data.id}
             </div>
@@ -54,7 +55,7 @@ export default function App() {
     const [graphData, setGraphData] = useState(null);
     const [nodes, setNodes, onNodesChange] = useNodesState([]);
     const [edges, setEdges, onEdgesChange] = useEdgesState([]);
-
+    
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedNode, setSelectedNode] = useState(null);
     const [selectedEdge, setSelectedEdge] = useState(null);
@@ -78,7 +79,7 @@ export default function App() {
 
     const populateFlow = (data) => {
         if (!data) return;
-
+        
         const activeNodes = data.nodes.map(n => ({
             ...n,
             type: 'custom',
@@ -90,7 +91,7 @@ export default function App() {
             return {
                 ...e,
                 type: 'bezier',
-                style: {
+                style: { 
                     stroke: isSuspicious ? '#e02020' : '#888888',
                     strokeWidth: isSuspicious ? 2 : 1.5,
                     opacity: 1
@@ -139,7 +140,7 @@ export default function App() {
     const onPaneClick = () => {
         setSelectedNode(null);
         setSelectedEdge(null);
-        if (graphData) populateFlow(graphData);
+        if(graphData) populateFlow(graphData);
     };
 
     const timelineEvents = useMemo(() => {
@@ -150,7 +151,7 @@ export default function App() {
         } else if (selectedEdge) {
             txns = [selectedEdge.data];
         }
-        return txns.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+        return txns.sort((a,b) => new Date(a.timestamp) - new Date(b.timestamp));
     }, [graphData, selectedNode, selectedEdge]);
 
     const renderAICopilot = () => {
@@ -176,7 +177,7 @@ export default function App() {
                     <p className="text-[13px] text-gray-800 leading-relaxed font-normal mb-4">
                         {label}
                     </p>
-
+                    
                     {isHighRisk && (
                         <div className="text-[12px] bg-[#ffeeee] border border-[#ffcccc] rounded p-2 text-[#cc0000] font-bold flex gap-2 items-center">
                             <AlertTriangle size={16} className="text-[#cc0000] shrink-0" />
@@ -198,32 +199,34 @@ export default function App() {
     // ------------------------------------------------------------------------------------------------------------------
     const renderActiveAlertQueue = () => (
         <div className="flex flex-col md:flex-row gap-4 h-[calc(100vh-180px)]">
-
+            
             {/* LEFT COLUMN: Investigation Timeline */}
             <div className="w-full md:w-[350px] union-panel flex flex-col overflow-hidden shrink-0 h-full">
                 <div className="bg-[#005b9f] text-white px-4 py-2 font-bold text-[14px] flex justify-between items-center">
                     <span>Transaction Timeline</span>
                     <span className="bg-white text-[#005b9f] rounded-full px-2 text-[10px]">{timelineEvents.length}</span>
                 </div>
-
+                
                 <div className="flex-1 overflow-auto p-4 custom-scrollbar bg-white">
                     <div className="relative border-l-2 border-gray-200 ml-2 space-y-4">
                         <AnimatePresence>
                             {timelineEvents.map((ev, i) => {
                                 const isSuspicious = ev.pattern_label !== 'NORMAL';
                                 return (
-                                    <motion.div
+                                    <motion.div 
                                         key={ev.id}
                                         initial={{ opacity: 0, x: -10 }}
                                         animate={{ opacity: 1, x: 0 }}
                                         transition={{ delay: i * 0.02 }}
                                         className="relative pl-6"
                                     >
-                                        <div className={`absolute -left-[5px] top-2 h-2 w-2 rounded-full ring-2 ring-white ${isSuspicious ? 'bg-[#e02020]' : 'bg-gray-400'
-                                            }`} />
-
-                                        <div className={`flex flex-col gap-1 p-3 border rounded transition-all duration-200 cursor-pointer ${selectedEdge?.id === ev.id ? 'border-[#005b9f] bg-[#eef4f9]' : 'border-gray-200 hover:bg-gray-50'
-                                            }`}>
+                                        <div className={`absolute -left-[5px] top-2 h-2 w-2 rounded-full ring-2 ring-white ${
+                                            isSuspicious ? 'bg-[#e02020]' : 'bg-gray-400'
+                                        }`} />
+                                        
+                                        <div className={`flex flex-col gap-1 p-3 border rounded transition-all duration-200 cursor-pointer ${
+                                            selectedEdge?.id === ev.id ? 'border-[#005b9f] bg-[#eef4f9]' : 'border-gray-200 hover:bg-gray-50'
+                                        }`}>
                                             <div className="flex justify-between items-center w-full">
                                                 <span className="text-[11px] text-gray-500 font-normal">{format(new Date(ev.timestamp), "MMM dd, HH:mm")}</span>
                                                 {isSuspicious ? (
@@ -232,16 +235,16 @@ export default function App() {
                                                     <span className="text-[10px] text-gray-400 font-bold">NORMAL</span>
                                                 )}
                                             </div>
-
+                                            
                                             <div className="flex items-center justify-between mt-1">
                                                 <div className="flex items-center gap-1 font-bold text-[12px] w-2/3">
                                                     <span className={`${ev.source === selectedNode?.id ? 'text-[#005b9f]' : 'text-gray-800'} truncate`}>{ev.source}</span>
                                                     <ChevronRight size={12} className="text-gray-400 shrink-0" />
                                                     <span className={`${ev.target === selectedNode?.id ? 'text-[#005b9f]' : 'text-gray-800'} truncate`}>{ev.target}</span>
                                                 </div>
-                                                <span className="text-[14px] font-bold text-gray-900 shrink-0 ml-2">${ev.amount.toLocaleString(undefined, { minimumFractionDigits: 2 })}</span>
+                                                <span className="text-[14px] font-bold text-gray-900 shrink-0 ml-2">${ev.amount.toLocaleString(undefined, {minimumFractionDigits: 2})}</span>
                                             </div>
-                                            <div className="text-[10px] text-gray-500 mt-1 uppercase">Channel: {ev.channel_id?.replace('CH_', '') || 'UNK'}</div>
+                                            <div className="text-[10px] text-gray-500 mt-1 uppercase">Channel: {ev.channel_id?.replace('CH_','') || 'UNK'}</div>
                                         </div>
                                     </motion.div>
                                 )
@@ -259,10 +262,10 @@ export default function App() {
                 {/* TOP COMPONENT: Network Graph Analysis */}
                 <div className="flex-[3] union-panel flex flex-col overflow-hidden relative min-h-[400px]">
                     <div className="bg-[#f5f5f5] border-b border-gray-200 px-4 py-2 font-bold text-[14px] text-gray-800 flex items-center gap-2">
-                        <Box size={16} className="text-[#005b9f]" /> Network Graph Explorer
+                        <Box size={16} className="text-[#005b9f]"/> Network Graph Explorer
                     </div>
-
-                    <div className="w-full h-full relative bg-white">
+                    
+                    <div className="w-full h-full relative bg-white pb-32">
                         <ReactFlow
                             nodes={nodes}
                             edges={edges}
@@ -277,7 +280,7 @@ export default function App() {
                             maxZoom={2}
                         >
                             <Background color="#ccc" gap={20} size={1} />
-                            <Controls className="!bg-white !border-gray-300 !shadow-sm [&>button]:!border-b-gray-200 !fill-gray-600 hover:[&>button]:!fill-[#005b9f] absolute bottom-4 right-4" position="bottom-right" />
+                            <Controls className="!bg-white !border-gray-300 !shadow-sm [&>button]:!border-b-gray-200 !fill-gray-600 hover:[&>button]:!fill-[#005b9f] absolute bottom-4 right-4" position="bottom-right"/>
                         </ReactFlow>
                     </div>
                 </div>
@@ -293,7 +296,7 @@ export default function App() {
     const renderInvestigationDashboard = () => (
         <div className="flex flex-col gap-6">
             <h2 className="text-[18px] font-bold text-[#005b9f] border-b-2 border-[#005b9f] pb-2 inline-block w-fit">Operations Overview</h2>
-
+            
             <div className="grid grid-cols-4 gap-4">
                 {[
                     { title: "Open Investigations", value: "24", icon: ShieldAlert },
@@ -345,7 +348,7 @@ export default function App() {
                         </h3>
                         <div className="text-[10px] font-bold text-[#108e40] bg-[#e6f4ea] px-2 py-0.5 rounded border border-[#108e40]">LIVE SYNC</div>
                     </div>
-
+                    
                     <div className="flex-1 overflow-hidden">
                         <table className="w-full text-left border-collapse">
                             <thead className="bg-[#f8f9fa] border-y border-gray-200 text-[10px] uppercase font-bold text-gray-500">
@@ -390,7 +393,7 @@ export default function App() {
                 <h2 className="text-[18px] font-bold text-[#005b9f] border-b-2 border-[#005b9f] pb-2 inline-block w-fit">Entity Master Directory</h2>
                 <button className="btn-primary flex items-center gap-2"><Users size={14} /> MERGE PROFILES</button>
             </div>
-
+            
             <div className="union-panel overflow-hidden">
                 <table className="w-full text-left border-collapse">
                     <thead className="bg-[#f8f9fa] border-b border-gray-200 text-[11px] font-bold text-gray-600 uppercase">
@@ -452,13 +455,13 @@ export default function App() {
     const renderSettings = () => (
         <div className="flex flex-col gap-6">
             <h2 className="text-[18px] font-bold text-[#005b9f] border-b-2 border-[#005b9f] pb-2 inline-block w-fit">Heuristic Model Configuration</h2>
-
+            
             <div className="union-panel max-w-2xl">
                 <div className="p-6 border-b border-gray-200 bg-[#f8f9fa]">
                     <h3 className="text-[14px] font-bold text-gray-800">Algorithm Thresholds</h3>
                     <p className="text-[11px] text-gray-500 mt-1">Adjust the core detection parameters for the TGNN engine. Restricted to L3 Admin.</p>
                 </div>
-
+                
                 <div className="p-6 space-y-5">
                     <div>
                         <label className="block text-[12px] font-bold text-gray-700 mb-1">Structuring Threshold Pivot (USD)</label>
@@ -472,13 +475,12 @@ export default function App() {
                         <label className="block text-[12px] font-bold text-gray-700 mb-1">Cycle Round-Trip Allowance (Days)</label>
                         <input type="number" defaultValue={30} className="w-full border border-gray-300 rounded p-2 text-[13px] focus:outline-none focus:border-[#005b9f] bg-[#fbfbfb]" />
                     </div>
-
+                    
                     <button className="btn-primary mt-2">SAVE CONFIGURATION</button>
                 </div>
             </div>
         </div>
     );
-
 
     return (
         <div className="min-h-screen bg-[#f0f2f5] font-sans flex flex-col text-[#333]">
@@ -494,32 +496,32 @@ export default function App() {
                     <span className="border-l border-gray-300 pl-4 hover:text-[#005b9f] cursor-pointer">English ▼</span>
                 </div>
             </div>
-
+            
             {/* Main Header */}
             <div className="bg-white px-8 py-4 flex items-center justify-between shadow-sm z-10">
                 <div className="flex items-center gap-3">
                     {/* Mock Logo */}
                     <div className="flex items-center gap-2">
-                        <div className="text-[28px] font-bold text-[#e02020] tracking-tighter">FraudNet -</div>
-                        <div className="text-[28px] font-bold text-[#005b9f] tracking-tighter italic">Matrix</div>
+                        <div className="text-[28px] font-bold text-[#e02020] tracking-tighter">FUND</div>
+                        <div className="text-[28px] font-bold text-[#005b9f] tracking-tighter italic">DNA</div>
                     </div>
                     <div className="text-gray-500 font-bold text-[12px] border-l-2 border-gray-300 pl-3 ml-2 flex flex-col leading-tight uppercase">
                         <span>AML & Fraud</span>
                         <span>Investigation Portal</span>
                     </div>
                 </div>
-
+                
                 <div className="flex items-center gap-6">
                     <div className="flex items-center gap-4 text-[12px] font-bold text-[#444] border-r-2 border-gray-200 pr-6 mr-2">
-                        <span className="hover:text-[#005b9f] cursor-pointer flex items-center gap-1"><Phone size={14} className="text-[#005b9f]" /> Contact Desk</span>
-                        <span className="hover:text-[#005b9f] cursor-pointer flex items-center gap-1"><Globe size={14} className="text-[#005b9f]" /> Global Branches</span>
+                        <span className="hover:text-[#005b9f] cursor-pointer flex items-center gap-1"><Phone size={14} className="text-[#005b9f]"/> Contact Desk</span>
+                        <span className="hover:text-[#005b9f] cursor-pointer flex items-center gap-1"><Globe size={14} className="text-[#005b9f]"/> Global Branches</span>
                     </div>
-
+                    
                     <div className="flex bg-[#f1f1f1] rounded-full px-4 py-1.5 items-center border border-gray-300 w-64">
                         <input type="text" placeholder="Search Customer / Account" className="bg-transparent outline-none text-[12px] w-full text-gray-800" />
                         <Search size={14} className="text-[#005b9f] font-bold" />
                     </div>
-
+                    
                     <div className="flex items-center gap-3">
                         <div className="text-right">
                             <div className="text-[12px] font-bold text-[#005b9f]">Analyst J.Doe</div>
@@ -534,7 +536,7 @@ export default function App() {
                     </button>
                 </div>
             </div>
-
+            
             {/* Blue Nav Bar */}
             <div className="bg-[#005b9f] text-white px-8 flex shadow-md sticky top-0 z-20">
                 <div className="flex w-full">
@@ -545,12 +547,13 @@ export default function App() {
                         { icon: FileBarChart, label: 'Regulatory Reports' },
                         { icon: Settings, label: 'Platform Settings' },
                     ].map((item, i) => (
-                        <button
+                        <button 
                             key={i}
-                            className={`py-3 px-6 text-[13px] font-bold flex items-center justify-center gap-2 border-b-[4px] transition-all ${activeTab === item.label
-                                ? 'border-[#e02020] bg-[#004780] text-white'
+                            className={`py-3 px-6 text-[13px] font-bold flex items-center justify-center gap-2 border-b-[4px] transition-all ${
+                                activeTab === item.label 
+                                ? 'border-[#e02020] bg-[#004780] text-white' 
                                 : 'border-transparent text-gray-200 hover:bg-[#004780] hover:text-white'
-                                }`}
+                            }`}
                             onClick={() => setActiveTab(item.label)}
                         >
                             {/* <item.icon size={16} /> */}
@@ -558,7 +561,7 @@ export default function App() {
                         </button>
                     ))}
                 </div>
-
+                
                 {/* Right side alert indicator */}
                 <div className="flex items-center ml-auto border-l border-[#004780] pl-6 bg-[#004780]">
                     <div className="flex items-center gap-2 text-[12px] font-bold px-4">
@@ -567,7 +570,7 @@ export default function App() {
                     </div>
                 </div>
             </div>
-
+            
             {/* Main Content */}
             <div className="flex-1 p-6 max-w-[1600px] mx-auto w-full">
                 {/* DYNAMIC CONTENT ROUTER */}
@@ -578,7 +581,7 @@ export default function App() {
                 {activeTab === 'Regulatory Reports' && renderReports()}
                 {activeTab === 'Platform Settings' && renderSettings()}
             </div>
-
+            
             <footer className="bg-white border-t border-gray-200 py-4 text-center text-[11px] text-gray-500 mt-auto">
                 © 2026 Fundamental DNA AML Systems. Designed for authorized personnel only.
             </footer>

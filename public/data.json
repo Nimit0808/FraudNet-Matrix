@@ -1,0 +1,3526 @@
+{
+    "nodes": [
+        {
+            "id": "ACC_070",
+            "position": {
+                "x": 700.0,
+                "y": 300.0
+            },
+            "data": {
+                "label": "Account: ACC_070\nCurrent (₹75858.12)",
+                "risk": "high",
+                "customer": "Customer 70"
+            }
+        },
+        {
+            "id": "ACC_004",
+            "position": {
+                "x": 670.2906603707257,
+                "y": 430.16512173526746
+            },
+            "data": {
+                "label": "Account: ACC_004\nCorporate (₹41627.34)",
+                "risk": "high",
+                "customer": "Customer 4"
+            }
+        },
+        {
+            "id": "ACC_020",
+            "position": {
+                "x": 587.04694055762,
+                "y": 534.549444740409
+            },
+            "data": {
+                "label": "Account: ACC_020\nCurrent (₹16151.83)",
+                "risk": "high",
+                "customer": "Customer 20"
+            }
+        },
+        {
+            "id": "ACC_010",
+            "position": {
+                "x": 466.75628018689434,
+                "y": 592.4783736545471
+            },
+            "data": {
+                "label": "Account: ACC_010\nSavings (₹12635.3)",
+                "risk": "high",
+                "customer": "Customer 10"
+            }
+        },
+        {
+            "id": "ACC_060",
+            "position": {
+                "x": 333.2437198131057,
+                "y": 592.4783736545471
+            },
+            "data": {
+                "label": "Account: ACC_060\nCorporate (₹87219.5)",
+                "risk": "high",
+                "customer": "Customer 60"
+            }
+        },
+        {
+            "id": "ACC_030",
+            "position": {
+                "x": 212.95305944237995,
+                "y": 534.549444740409
+            },
+            "data": {
+                "label": "Account: ACC_030\nCurrent (₹51382.59)",
+                "risk": "high",
+                "customer": "Customer 30"
+            }
+        },
+        {
+            "id": "ACC_090",
+            "position": {
+                "x": 129.70933962927427,
+                "y": 430.16512173526746
+            },
+            "data": {
+                "label": "Account: ACC_090\nSavings (₹74560.09)",
+                "risk": "high",
+                "customer": "Customer 90"
+            }
+        },
+        {
+            "id": "ACC_001",
+            "position": {
+                "x": 100.0,
+                "y": 300.00000000000006
+            },
+            "data": {
+                "label": "Account: ACC_001\nCurrent (₹63130.04)",
+                "risk": "high",
+                "customer": "Customer 1"
+            }
+        },
+        {
+            "id": "ACC_003",
+            "position": {
+                "x": 129.70933962927427,
+                "y": 169.8348782647326
+            },
+            "data": {
+                "label": "Account: ACC_003\nCurrent (₹68764.6)",
+                "risk": "high",
+                "customer": "Customer 3"
+            }
+        },
+        {
+            "id": "ACC_080",
+            "position": {
+                "x": 212.95305944237992,
+                "y": 65.45055525959108
+            },
+            "data": {
+                "label": "Account: ACC_080\nSavings (₹82571.77)",
+                "risk": "high",
+                "customer": "Customer 80"
+            }
+        },
+        {
+            "id": "ACC_002",
+            "position": {
+                "x": 333.2437198131056,
+                "y": 7.521626345452887
+            },
+            "data": {
+                "label": "Account: ACC_002\nSavings (₹10539.0)",
+                "risk": "high",
+                "customer": "Customer 2"
+            }
+        },
+        {
+            "id": "ACC_040",
+            "position": {
+                "x": 466.756280186894,
+                "y": 7.52162634545283
+            },
+            "data": {
+                "label": "Account: ACC_040\nCorporate (₹76658.07)",
+                "risk": "high",
+                "customer": "Customer 40"
+            }
+        },
+        {
+            "id": "ACC_050",
+            "position": {
+                "x": 587.04694055762,
+                "y": 65.45055525959103
+            },
+            "data": {
+                "label": "Account: ACC_050\nCurrent (₹21630.65)",
+                "risk": "high",
+                "customer": "Customer 50"
+            }
+        },
+        {
+            "id": "ACC_005",
+            "position": {
+                "x": 670.2906603707258,
+                "y": 169.83487826473274
+            },
+            "data": {
+                "label": "Account: ACC_005\nCurrent (₹67780.08)",
+                "risk": "high",
+                "customer": "Customer 5"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "TXN_L_367bb6a3",
+            "source": "ACC_010",
+            "target": "ACC_020",
+            "label": "₹49956.93",
+            "animated": true,
+            "data": {
+                "id": "TXN_L_367bb6a3",
+                "source": "ACC_010",
+                "target": "ACC_020",
+                "amount": 49956.93,
+                "currency": "USD",
+                "timestamp": "2026-02-25T12:14:28.269092",
+                "pattern_label": "LAYERING"
+            }
+        },
+        {
+            "id": "TXN_L_d1d1a4c6",
+            "source": "ACC_020",
+            "target": "ACC_030",
+            "label": "₹49914.89",
+            "animated": true,
+            "data": {
+                "id": "TXN_L_d1d1a4c6",
+                "source": "ACC_020",
+                "target": "ACC_030",
+                "amount": 49914.89,
+                "currency": "USD",
+                "timestamp": "2026-02-25T12:16:28.269092",
+                "pattern_label": "LAYERING"
+            }
+        },
+        {
+            "id": "TXN_L_8cc8360f",
+            "source": "ACC_030",
+            "target": "ACC_040",
+            "label": "₹49884.7",
+            "animated": true,
+            "data": {
+                "id": "TXN_L_8cc8360f",
+                "source": "ACC_030",
+                "target": "ACC_040",
+                "amount": 49884.7,
+                "currency": "USD",
+                "timestamp": "2026-02-25T12:18:28.269092",
+                "pattern_label": "LAYERING"
+            }
+        },
+        {
+            "id": "TXN_L_813d1dac",
+            "source": "ACC_040",
+            "target": "ACC_050",
+            "label": "₹49857.82",
+            "animated": true,
+            "data": {
+                "id": "TXN_L_813d1dac",
+                "source": "ACC_040",
+                "target": "ACC_050",
+                "amount": 49857.82,
+                "currency": "USD",
+                "timestamp": "2026-02-25T12:20:28.269092",
+                "pattern_label": "LAYERING"
+            }
+        },
+        {
+            "id": "TXN_C_435e451d",
+            "source": "ACC_060",
+            "target": "ACC_070",
+            "label": "₹75000.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_C_435e451d",
+                "source": "ACC_060",
+                "target": "ACC_070",
+                "amount": 75000.0,
+                "currency": "USD",
+                "timestamp": "2026-03-07T16:12:28.269092",
+                "pattern_label": "CIRCULAR"
+            }
+        },
+        {
+            "id": "TXN_C_13571fb6",
+            "source": "ACC_070",
+            "target": "ACC_080",
+            "label": "₹75000.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_C_13571fb6",
+                "source": "ACC_070",
+                "target": "ACC_080",
+                "amount": 75000.0,
+                "currency": "USD",
+                "timestamp": "2026-03-07T17:12:28.269092",
+                "pattern_label": "CIRCULAR"
+            }
+        },
+        {
+            "id": "TXN_C_df2e0f32",
+            "source": "ACC_080",
+            "target": "ACC_090",
+            "label": "₹75000.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_C_df2e0f32",
+                "source": "ACC_080",
+                "target": "ACC_090",
+                "amount": 75000.0,
+                "currency": "USD",
+                "timestamp": "2026-03-07T20:12:28.269092",
+                "pattern_label": "CIRCULAR"
+            }
+        },
+        {
+            "id": "TXN_C_1cf150f1",
+            "source": "ACC_090",
+            "target": "ACC_060",
+            "label": "₹75000.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_C_1cf150f1",
+                "source": "ACC_090",
+                "target": "ACC_060",
+                "amount": 75000.0,
+                "currency": "USD",
+                "timestamp": "2026-03-07T21:12:28.269092",
+                "pattern_label": "CIRCULAR"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_da567caf",
+            "source": "ACC_001",
+            "target": "ACC_002",
+            "label": "₹9500.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_da567caf",
+                "source": "ACC_001",
+                "target": "ACC_002",
+                "amount": 9500.0,
+                "currency": "USD",
+                "timestamp": "2026-03-12T11:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_4c0eefa6",
+            "source": "ACC_002",
+            "target": "ACC_005",
+            "label": "₹9500.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_4c0eefa6",
+                "source": "ACC_002",
+                "target": "ACC_005",
+                "amount": 9500.0,
+                "currency": "USD",
+                "timestamp": "2026-03-15T14:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_ce230477",
+            "source": "ACC_001",
+            "target": "ACC_002",
+            "label": "₹9800.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_ce230477",
+                "source": "ACC_001",
+                "target": "ACC_002",
+                "amount": 9800.0,
+                "currency": "USD",
+                "timestamp": "2026-03-12T14:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_ca67de04",
+            "source": "ACC_002",
+            "target": "ACC_005",
+            "label": "₹9800.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_ca67de04",
+                "source": "ACC_002",
+                "target": "ACC_005",
+                "amount": 9800.0,
+                "currency": "USD",
+                "timestamp": "2026-03-13T17:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_f184a5fa",
+            "source": "ACC_001",
+            "target": "ACC_002",
+            "label": "₹9200.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_f184a5fa",
+                "source": "ACC_001",
+                "target": "ACC_002",
+                "amount": 9200.0,
+                "currency": "USD",
+                "timestamp": "2026-03-12T15:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_1eaf3a4a",
+            "source": "ACC_002",
+            "target": "ACC_005",
+            "label": "₹9200.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_1eaf3a4a",
+                "source": "ACC_002",
+                "target": "ACC_005",
+                "amount": 9200.0,
+                "currency": "USD",
+                "timestamp": "2026-03-14T18:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_e6fcd7ec",
+            "source": "ACC_001",
+            "target": "ACC_003",
+            "label": "₹9500.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_e6fcd7ec",
+                "source": "ACC_001",
+                "target": "ACC_003",
+                "amount": 9500.0,
+                "currency": "USD",
+                "timestamp": "2026-03-12T17:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_1d167d77",
+            "source": "ACC_003",
+            "target": "ACC_005",
+            "label": "₹9500.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_1d167d77",
+                "source": "ACC_003",
+                "target": "ACC_005",
+                "amount": 9500.0,
+                "currency": "USD",
+                "timestamp": "2026-03-13T21:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_c7bb5faf",
+            "source": "ACC_001",
+            "target": "ACC_003",
+            "label": "₹9800.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_c7bb5faf",
+                "source": "ACC_001",
+                "target": "ACC_003",
+                "amount": 9800.0,
+                "currency": "USD",
+                "timestamp": "2026-03-12T19:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_65b33b43",
+            "source": "ACC_003",
+            "target": "ACC_005",
+            "label": "₹9800.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_65b33b43",
+                "source": "ACC_003",
+                "target": "ACC_005",
+                "amount": 9800.0,
+                "currency": "USD",
+                "timestamp": "2026-03-14T23:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_0dbb679b",
+            "source": "ACC_001",
+            "target": "ACC_003",
+            "label": "₹9200.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_0dbb679b",
+                "source": "ACC_001",
+                "target": "ACC_003",
+                "amount": 9200.0,
+                "currency": "USD",
+                "timestamp": "2026-03-12T22:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_3322933a",
+            "source": "ACC_003",
+            "target": "ACC_005",
+            "label": "₹9200.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_3322933a",
+                "source": "ACC_003",
+                "target": "ACC_005",
+                "amount": 9200.0,
+                "currency": "USD",
+                "timestamp": "2026-03-16T01:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_272cdb7b",
+            "source": "ACC_001",
+            "target": "ACC_004",
+            "label": "₹9500.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_272cdb7b",
+                "source": "ACC_001",
+                "target": "ACC_004",
+                "amount": 9500.0,
+                "currency": "USD",
+                "timestamp": "2026-03-13T01:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_f2a27159",
+            "source": "ACC_004",
+            "target": "ACC_005",
+            "label": "₹9500.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_f2a27159",
+                "source": "ACC_004",
+                "target": "ACC_005",
+                "amount": 9500.0,
+                "currency": "USD",
+                "timestamp": "2026-03-15T02:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_5c5a77db",
+            "source": "ACC_001",
+            "target": "ACC_004",
+            "label": "₹9800.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_5c5a77db",
+                "source": "ACC_001",
+                "target": "ACC_004",
+                "amount": 9800.0,
+                "currency": "USD",
+                "timestamp": "2026-03-13T03:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_5b73fee9",
+            "source": "ACC_004",
+            "target": "ACC_005",
+            "label": "₹9800.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_5b73fee9",
+                "source": "ACC_004",
+                "target": "ACC_005",
+                "amount": 9800.0,
+                "currency": "USD",
+                "timestamp": "2026-03-14T04:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        },
+        {
+            "id": "TXN_S_OUT_4d262557",
+            "source": "ACC_001",
+            "target": "ACC_004",
+            "label": "₹9200.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_OUT_4d262557",
+                "source": "ACC_001",
+                "target": "ACC_004",
+                "amount": 9200.0,
+                "currency": "USD",
+                "timestamp": "2026-03-13T04:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_OUT"
+            }
+        },
+        {
+            "id": "TXN_S_IN_b56280eb",
+            "source": "ACC_004",
+            "target": "ACC_005",
+            "label": "₹9200.0",
+            "animated": true,
+            "data": {
+                "id": "TXN_S_IN_b56280eb",
+                "source": "ACC_004",
+                "target": "ACC_005",
+                "amount": 9200.0,
+                "currency": "USD",
+                "timestamp": "2026-03-14T05:12:28.269092",
+                "pattern_label": "STRUCTURING_FAN_IN"
+            }
+        }
+    ],
+    "all_transactions": [
+        {
+            "id": "TXN_N_30174e84",
+            "source": "ACC_020",
+            "target": "ACC_064",
+            "amount": 3260.18,
+            "currency": "USD",
+            "timestamp": "2026-03-05T12:16:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_105a5ad2",
+            "source": "ACC_064",
+            "target": "ACC_073",
+            "amount": 3579.61,
+            "currency": "USD",
+            "timestamp": "2026-03-16T08:52:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b6594c1c",
+            "source": "ACC_022",
+            "target": "ACC_003",
+            "amount": 3214.29,
+            "currency": "USD",
+            "timestamp": "2026-03-15T13:53:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_61d07ebf",
+            "source": "ACC_068",
+            "target": "ACC_052",
+            "amount": 2488.3,
+            "currency": "USD",
+            "timestamp": "2026-02-23T09:29:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2400d25d",
+            "source": "ACC_092",
+            "target": "ACC_035",
+            "amount": 2874.88,
+            "currency": "USD",
+            "timestamp": "2026-03-14T14:48:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7216330d",
+            "source": "ACC_038",
+            "target": "ACC_055",
+            "amount": 81.18,
+            "currency": "USD",
+            "timestamp": "2026-03-16T06:38:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b65c1e0d",
+            "source": "ACC_099",
+            "target": "ACC_064",
+            "amount": 1633.67,
+            "currency": "USD",
+            "timestamp": "2026-02-26T00:34:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c6266360",
+            "source": "ACC_074",
+            "target": "ACC_099",
+            "amount": 836.67,
+            "currency": "USD",
+            "timestamp": "2026-03-03T07:55:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_62383d02",
+            "source": "ACC_059",
+            "target": "ACC_077",
+            "amount": 3969.99,
+            "currency": "USD",
+            "timestamp": "2026-02-20T19:40:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5e884e94",
+            "source": "ACC_096",
+            "target": "ACC_080",
+            "amount": 922.18,
+            "currency": "USD",
+            "timestamp": "2026-03-12T11:41:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2c9202d9",
+            "source": "ACC_018",
+            "target": "ACC_055",
+            "amount": 3647.49,
+            "currency": "USD",
+            "timestamp": "2026-02-23T22:26:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6dba1606",
+            "source": "ACC_031",
+            "target": "ACC_005",
+            "amount": 1696.75,
+            "currency": "USD",
+            "timestamp": "2026-02-20T07:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_ac1ab2ca",
+            "source": "ACC_030",
+            "target": "ACC_100",
+            "amount": 1851.76,
+            "currency": "USD",
+            "timestamp": "2026-02-23T13:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_1bd191f9",
+            "source": "ACC_003",
+            "target": "ACC_004",
+            "amount": 2072.78,
+            "currency": "USD",
+            "timestamp": "2026-03-20T10:00:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_512abd70",
+            "source": "ACC_086",
+            "target": "ACC_038",
+            "amount": 887.39,
+            "currency": "USD",
+            "timestamp": "2026-02-26T20:24:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d93aad8a",
+            "source": "ACC_006",
+            "target": "ACC_004",
+            "amount": 690.97,
+            "currency": "USD",
+            "timestamp": "2026-03-02T21:40:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3bfc34de",
+            "source": "ACC_044",
+            "target": "ACC_019",
+            "amount": 2335.87,
+            "currency": "USD",
+            "timestamp": "2026-02-21T09:55:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_49eee30a",
+            "source": "ACC_014",
+            "target": "ACC_080",
+            "amount": 958.38,
+            "currency": "USD",
+            "timestamp": "2026-03-07T21:21:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3db72d71",
+            "source": "ACC_031",
+            "target": "ACC_054",
+            "amount": 3940.86,
+            "currency": "USD",
+            "timestamp": "2026-02-25T06:05:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_490d98c7",
+            "source": "ACC_010",
+            "target": "ACC_069",
+            "amount": 4208.79,
+            "currency": "USD",
+            "timestamp": "2026-03-10T18:44:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_737b447a",
+            "source": "ACC_010",
+            "target": "ACC_068",
+            "amount": 2834.11,
+            "currency": "USD",
+            "timestamp": "2026-03-05T15:50:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_748a6c30",
+            "source": "ACC_003",
+            "target": "ACC_051",
+            "amount": 3962.14,
+            "currency": "USD",
+            "timestamp": "2026-03-05T20:50:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_e48f1ffd",
+            "source": "ACC_060",
+            "target": "ACC_031",
+            "amount": 728.67,
+            "currency": "USD",
+            "timestamp": "2026-02-21T05:39:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_af5bdfa2",
+            "source": "ACC_004",
+            "target": "ACC_044",
+            "amount": 3980.17,
+            "currency": "USD",
+            "timestamp": "2026-03-15T03:21:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6d1da6c3",
+            "source": "ACC_021",
+            "target": "ACC_036",
+            "amount": 1997.63,
+            "currency": "USD",
+            "timestamp": "2026-03-18T22:21:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_76c21122",
+            "source": "ACC_070",
+            "target": "ACC_077",
+            "amount": 4862.6,
+            "currency": "USD",
+            "timestamp": "2026-03-03T23:34:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b1e566bb",
+            "source": "ACC_088",
+            "target": "ACC_083",
+            "amount": 3204.66,
+            "currency": "USD",
+            "timestamp": "2026-02-24T11:27:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a37718ea",
+            "source": "ACC_039",
+            "target": "ACC_080",
+            "amount": 3389.09,
+            "currency": "USD",
+            "timestamp": "2026-03-01T07:15:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_35da9577",
+            "source": "ACC_074",
+            "target": "ACC_008",
+            "amount": 1154.52,
+            "currency": "USD",
+            "timestamp": "2026-03-16T20:41:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c435b001",
+            "source": "ACC_032",
+            "target": "ACC_003",
+            "amount": 4442.04,
+            "currency": "USD",
+            "timestamp": "2026-03-01T02:14:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_59aa0812",
+            "source": "ACC_069",
+            "target": "ACC_072",
+            "amount": 4299.39,
+            "currency": "USD",
+            "timestamp": "2026-03-10T23:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d1423304",
+            "source": "ACC_070",
+            "target": "ACC_095",
+            "amount": 1478.47,
+            "currency": "USD",
+            "timestamp": "2026-03-17T11:05:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_49336f4c",
+            "source": "ACC_061",
+            "target": "ACC_045",
+            "amount": 1658.77,
+            "currency": "USD",
+            "timestamp": "2026-02-24T21:24:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b76a1b25",
+            "source": "ACC_082",
+            "target": "ACC_094",
+            "amount": 4716.13,
+            "currency": "USD",
+            "timestamp": "2026-02-24T16:37:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2943f9fb",
+            "source": "ACC_088",
+            "target": "ACC_089",
+            "amount": 4399.36,
+            "currency": "USD",
+            "timestamp": "2026-02-27T02:18:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_162627ea",
+            "source": "ACC_062",
+            "target": "ACC_016",
+            "amount": 1587.94,
+            "currency": "USD",
+            "timestamp": "2026-03-03T22:27:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d12761f0",
+            "source": "ACC_078",
+            "target": "ACC_072",
+            "amount": 1222.3,
+            "currency": "USD",
+            "timestamp": "2026-03-02T09:07:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_342ed511",
+            "source": "ACC_049",
+            "target": "ACC_086",
+            "amount": 1063.21,
+            "currency": "USD",
+            "timestamp": "2026-03-06T19:03:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6b530efe",
+            "source": "ACC_045",
+            "target": "ACC_053",
+            "amount": 4590.57,
+            "currency": "USD",
+            "timestamp": "2026-03-19T10:00:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_9342e5a5",
+            "source": "ACC_014",
+            "target": "ACC_054",
+            "amount": 2864.33,
+            "currency": "USD",
+            "timestamp": "2026-02-23T10:48:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_ebc6d583",
+            "source": "ACC_053",
+            "target": "ACC_024",
+            "amount": 3466.37,
+            "currency": "USD",
+            "timestamp": "2026-03-20T05:01:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_1104fc8e",
+            "source": "ACC_090",
+            "target": "ACC_001",
+            "amount": 1209.57,
+            "currency": "USD",
+            "timestamp": "2026-02-26T22:50:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_e4438824",
+            "source": "ACC_027",
+            "target": "ACC_085",
+            "amount": 4284.14,
+            "currency": "USD",
+            "timestamp": "2026-03-16T02:50:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0dc10857",
+            "source": "ACC_009",
+            "target": "ACC_093",
+            "amount": 3656.11,
+            "currency": "USD",
+            "timestamp": "2026-03-15T16:16:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2bc01fc5",
+            "source": "ACC_098",
+            "target": "ACC_038",
+            "amount": 521.63,
+            "currency": "USD",
+            "timestamp": "2026-03-11T12:33:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_43e9d669",
+            "source": "ACC_066",
+            "target": "ACC_094",
+            "amount": 783.01,
+            "currency": "USD",
+            "timestamp": "2026-03-04T15:25:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_8d30d459",
+            "source": "ACC_086",
+            "target": "ACC_002",
+            "amount": 2844.35,
+            "currency": "USD",
+            "timestamp": "2026-03-03T19:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6dee0750",
+            "source": "ACC_056",
+            "target": "ACC_022",
+            "amount": 4389.05,
+            "currency": "USD",
+            "timestamp": "2026-02-25T05:43:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_aed5178e",
+            "source": "ACC_078",
+            "target": "ACC_004",
+            "amount": 4093.7,
+            "currency": "USD",
+            "timestamp": "2026-02-28T03:55:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_e1112cd4",
+            "source": "ACC_093",
+            "target": "ACC_055",
+            "amount": 932.78,
+            "currency": "USD",
+            "timestamp": "2026-02-27T06:39:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_fc736ead",
+            "source": "ACC_002",
+            "target": "ACC_082",
+            "amount": 4552.4,
+            "currency": "USD",
+            "timestamp": "2026-03-12T11:44:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7097555e",
+            "source": "ACC_080",
+            "target": "ACC_043",
+            "amount": 1550.02,
+            "currency": "USD",
+            "timestamp": "2026-02-27T18:36:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a5a3ee70",
+            "source": "ACC_076",
+            "target": "ACC_099",
+            "amount": 3679.85,
+            "currency": "USD",
+            "timestamp": "2026-02-23T11:29:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_9a49d19e",
+            "source": "ACC_021",
+            "target": "ACC_060",
+            "amount": 180.11,
+            "currency": "USD",
+            "timestamp": "2026-03-14T18:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_cd91c2df",
+            "source": "ACC_054",
+            "target": "ACC_031",
+            "amount": 4414.6,
+            "currency": "USD",
+            "timestamp": "2026-03-05T08:09:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_9156bbec",
+            "source": "ACC_071",
+            "target": "ACC_011",
+            "amount": 137.23,
+            "currency": "USD",
+            "timestamp": "2026-03-01T20:44:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_92ebf384",
+            "source": "ACC_086",
+            "target": "ACC_038",
+            "amount": 65.12,
+            "currency": "USD",
+            "timestamp": "2026-02-21T08:00:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0cd2d400",
+            "source": "ACC_053",
+            "target": "ACC_020",
+            "amount": 297.21,
+            "currency": "USD",
+            "timestamp": "2026-03-11T05:07:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7bc5011d",
+            "source": "ACC_015",
+            "target": "ACC_066",
+            "amount": 3376.85,
+            "currency": "USD",
+            "timestamp": "2026-03-17T07:06:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a3e68c6c",
+            "source": "ACC_086",
+            "target": "ACC_076",
+            "amount": 3581.46,
+            "currency": "USD",
+            "timestamp": "2026-02-27T03:01:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_096166a3",
+            "source": "ACC_054",
+            "target": "ACC_033",
+            "amount": 4917.08,
+            "currency": "USD",
+            "timestamp": "2026-03-16T01:58:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f09c3f76",
+            "source": "ACC_021",
+            "target": "ACC_088",
+            "amount": 2008.07,
+            "currency": "USD",
+            "timestamp": "2026-03-09T05:34:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6af095eb",
+            "source": "ACC_054",
+            "target": "ACC_084",
+            "amount": 3720.96,
+            "currency": "USD",
+            "timestamp": "2026-03-22T01:02:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_8e495e92",
+            "source": "ACC_092",
+            "target": "ACC_007",
+            "amount": 2045.51,
+            "currency": "USD",
+            "timestamp": "2026-03-04T12:11:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_ea5e2d47",
+            "source": "ACC_084",
+            "target": "ACC_007",
+            "amount": 4543.8,
+            "currency": "USD",
+            "timestamp": "2026-03-12T10:21:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a8752673",
+            "source": "ACC_077",
+            "target": "ACC_020",
+            "amount": 455.8,
+            "currency": "USD",
+            "timestamp": "2026-03-12T21:10:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f537138b",
+            "source": "ACC_026",
+            "target": "ACC_009",
+            "amount": 546.76,
+            "currency": "USD",
+            "timestamp": "2026-03-01T09:01:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_bed1a755",
+            "source": "ACC_085",
+            "target": "ACC_018",
+            "amount": 2970.05,
+            "currency": "USD",
+            "timestamp": "2026-02-25T10:11:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_34ac7566",
+            "source": "ACC_036",
+            "target": "ACC_095",
+            "amount": 4672.68,
+            "currency": "USD",
+            "timestamp": "2026-02-25T15:43:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6b37b67d",
+            "source": "ACC_017",
+            "target": "ACC_018",
+            "amount": 1801.78,
+            "currency": "USD",
+            "timestamp": "2026-02-26T06:34:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3c2a3c07",
+            "source": "ACC_070",
+            "target": "ACC_015",
+            "amount": 1648.64,
+            "currency": "USD",
+            "timestamp": "2026-03-03T18:01:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_17b6e927",
+            "source": "ACC_061",
+            "target": "ACC_068",
+            "amount": 680.9,
+            "currency": "USD",
+            "timestamp": "2026-02-28T09:52:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_79132260",
+            "source": "ACC_092",
+            "target": "ACC_001",
+            "amount": 2941.79,
+            "currency": "USD",
+            "timestamp": "2026-03-14T01:12:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_58932761",
+            "source": "ACC_030",
+            "target": "ACC_048",
+            "amount": 1324.55,
+            "currency": "USD",
+            "timestamp": "2026-03-05T19:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_636f6146",
+            "source": "ACC_049",
+            "target": "ACC_046",
+            "amount": 2127.42,
+            "currency": "USD",
+            "timestamp": "2026-03-16T07:02:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3d2f277d",
+            "source": "ACC_038",
+            "target": "ACC_070",
+            "amount": 3379.09,
+            "currency": "USD",
+            "timestamp": "2026-02-25T08:48:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d3b8fa88",
+            "source": "ACC_012",
+            "target": "ACC_094",
+            "amount": 1676.91,
+            "currency": "USD",
+            "timestamp": "2026-03-20T23:43:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_543cb059",
+            "source": "ACC_056",
+            "target": "ACC_097",
+            "amount": 2894.63,
+            "currency": "USD",
+            "timestamp": "2026-02-28T12:48:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5fc2a0a0",
+            "source": "ACC_041",
+            "target": "ACC_064",
+            "amount": 4142.5,
+            "currency": "USD",
+            "timestamp": "2026-03-01T19:50:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0a06490e",
+            "source": "ACC_061",
+            "target": "ACC_094",
+            "amount": 1102.49,
+            "currency": "USD",
+            "timestamp": "2026-02-28T09:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d900a9f7",
+            "source": "ACC_093",
+            "target": "ACC_094",
+            "amount": 727.98,
+            "currency": "USD",
+            "timestamp": "2026-02-24T12:46:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d1224349",
+            "source": "ACC_055",
+            "target": "ACC_008",
+            "amount": 494.28,
+            "currency": "USD",
+            "timestamp": "2026-03-20T20:51:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c538b5cd",
+            "source": "ACC_064",
+            "target": "ACC_038",
+            "amount": 786.44,
+            "currency": "USD",
+            "timestamp": "2026-02-27T13:45:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_539bca93",
+            "source": "ACC_028",
+            "target": "ACC_093",
+            "amount": 493.67,
+            "currency": "USD",
+            "timestamp": "2026-02-26T19:49:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b3749cd7",
+            "source": "ACC_039",
+            "target": "ACC_049",
+            "amount": 1887.08,
+            "currency": "USD",
+            "timestamp": "2026-03-06T18:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5f78048b",
+            "source": "ACC_021",
+            "target": "ACC_008",
+            "amount": 1596.91,
+            "currency": "USD",
+            "timestamp": "2026-03-12T23:16:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_03c1d121",
+            "source": "ACC_012",
+            "target": "ACC_004",
+            "amount": 224.86,
+            "currency": "USD",
+            "timestamp": "2026-03-10T23:07:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_996e04f6",
+            "source": "ACC_037",
+            "target": "ACC_092",
+            "amount": 2799.06,
+            "currency": "USD",
+            "timestamp": "2026-03-17T22:07:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a040de58",
+            "source": "ACC_052",
+            "target": "ACC_020",
+            "amount": 4412.02,
+            "currency": "USD",
+            "timestamp": "2026-03-03T02:40:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f0fe58d1",
+            "source": "ACC_057",
+            "target": "ACC_084",
+            "amount": 2973.93,
+            "currency": "USD",
+            "timestamp": "2026-02-27T20:32:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_11cdc814",
+            "source": "ACC_052",
+            "target": "ACC_010",
+            "amount": 2930.17,
+            "currency": "USD",
+            "timestamp": "2026-02-22T08:57:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_06776647",
+            "source": "ACC_018",
+            "target": "ACC_064",
+            "amount": 99.66,
+            "currency": "USD",
+            "timestamp": "2026-03-01T04:50:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0e1ee308",
+            "source": "ACC_093",
+            "target": "ACC_087",
+            "amount": 2998.81,
+            "currency": "USD",
+            "timestamp": "2026-02-23T01:00:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_49aaf3f9",
+            "source": "ACC_070",
+            "target": "ACC_056",
+            "amount": 267.71,
+            "currency": "USD",
+            "timestamp": "2026-03-07T15:51:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_dffe2a43",
+            "source": "ACC_042",
+            "target": "ACC_080",
+            "amount": 529.38,
+            "currency": "USD",
+            "timestamp": "2026-03-04T13:51:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_ab128dcb",
+            "source": "ACC_025",
+            "target": "ACC_011",
+            "amount": 2466.33,
+            "currency": "USD",
+            "timestamp": "2026-03-20T05:05:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6bfc0e3b",
+            "source": "ACC_052",
+            "target": "ACC_035",
+            "amount": 3194.85,
+            "currency": "USD",
+            "timestamp": "2026-03-03T02:07:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7050322c",
+            "source": "ACC_001",
+            "target": "ACC_016",
+            "amount": 4853.59,
+            "currency": "USD",
+            "timestamp": "2026-03-15T09:26:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_8b4222ff",
+            "source": "ACC_033",
+            "target": "ACC_023",
+            "amount": 366.73,
+            "currency": "USD",
+            "timestamp": "2026-03-13T22:51:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2423a29d",
+            "source": "ACC_008",
+            "target": "ACC_067",
+            "amount": 1331.17,
+            "currency": "USD",
+            "timestamp": "2026-03-01T10:51:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f9c788ae",
+            "source": "ACC_079",
+            "target": "ACC_068",
+            "amount": 2468.67,
+            "currency": "USD",
+            "timestamp": "2026-03-10T08:16:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5e5e471b",
+            "source": "ACC_085",
+            "target": "ACC_052",
+            "amount": 304.11,
+            "currency": "USD",
+            "timestamp": "2026-03-12T06:13:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d99302c9",
+            "source": "ACC_092",
+            "target": "ACC_075",
+            "amount": 1699.89,
+            "currency": "USD",
+            "timestamp": "2026-02-28T07:55:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5c70e06c",
+            "source": "ACC_052",
+            "target": "ACC_038",
+            "amount": 2762.12,
+            "currency": "USD",
+            "timestamp": "2026-02-28T19:47:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_bd954d67",
+            "source": "ACC_055",
+            "target": "ACC_046",
+            "amount": 4491.02,
+            "currency": "USD",
+            "timestamp": "2026-02-22T10:33:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_09027bba",
+            "source": "ACC_050",
+            "target": "ACC_044",
+            "amount": 2194.84,
+            "currency": "USD",
+            "timestamp": "2026-03-21T23:18:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f6dc247a",
+            "source": "ACC_012",
+            "target": "ACC_050",
+            "amount": 4793.75,
+            "currency": "USD",
+            "timestamp": "2026-03-19T02:19:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3f25e4f8",
+            "source": "ACC_031",
+            "target": "ACC_097",
+            "amount": 3799.34,
+            "currency": "USD",
+            "timestamp": "2026-03-02T20:10:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f1a7085b",
+            "source": "ACC_013",
+            "target": "ACC_070",
+            "amount": 936.38,
+            "currency": "USD",
+            "timestamp": "2026-02-21T06:27:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5e815840",
+            "source": "ACC_052",
+            "target": "ACC_014",
+            "amount": 244.78,
+            "currency": "USD",
+            "timestamp": "2026-03-05T01:36:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d2ab3a6e",
+            "source": "ACC_050",
+            "target": "ACC_025",
+            "amount": 857.78,
+            "currency": "USD",
+            "timestamp": "2026-03-15T21:58:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_9c61e1f9",
+            "source": "ACC_088",
+            "target": "ACC_024",
+            "amount": 4934.79,
+            "currency": "USD",
+            "timestamp": "2026-03-04T13:08:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_809f7da1",
+            "source": "ACC_073",
+            "target": "ACC_040",
+            "amount": 4306.74,
+            "currency": "USD",
+            "timestamp": "2026-02-23T05:29:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_684117d1",
+            "source": "ACC_077",
+            "target": "ACC_071",
+            "amount": 3190.84,
+            "currency": "USD",
+            "timestamp": "2026-03-14T01:26:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_dfb7282c",
+            "source": "ACC_009",
+            "target": "ACC_092",
+            "amount": 2922.07,
+            "currency": "USD",
+            "timestamp": "2026-02-23T09:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_98d49144",
+            "source": "ACC_021",
+            "target": "ACC_086",
+            "amount": 3183.3,
+            "currency": "USD",
+            "timestamp": "2026-03-05T11:11:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_4d92d75e",
+            "source": "ACC_035",
+            "target": "ACC_015",
+            "amount": 4305.73,
+            "currency": "USD",
+            "timestamp": "2026-03-18T11:27:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7452be0c",
+            "source": "ACC_078",
+            "target": "ACC_024",
+            "amount": 3540.68,
+            "currency": "USD",
+            "timestamp": "2026-02-26T01:13:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_09cb3c17",
+            "source": "ACC_037",
+            "target": "ACC_018",
+            "amount": 1716.29,
+            "currency": "USD",
+            "timestamp": "2026-03-17T06:46:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_23830847",
+            "source": "ACC_035",
+            "target": "ACC_061",
+            "amount": 1704.75,
+            "currency": "USD",
+            "timestamp": "2026-03-18T04:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b7a11e3a",
+            "source": "ACC_010",
+            "target": "ACC_085",
+            "amount": 878.5,
+            "currency": "USD",
+            "timestamp": "2026-03-06T19:09:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_71fe4a80",
+            "source": "ACC_038",
+            "target": "ACC_004",
+            "amount": 1943.86,
+            "currency": "USD",
+            "timestamp": "2026-03-17T17:58:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0c621f4a",
+            "source": "ACC_053",
+            "target": "ACC_006",
+            "amount": 1998.93,
+            "currency": "USD",
+            "timestamp": "2026-03-04T13:51:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_eebdeaa3",
+            "source": "ACC_032",
+            "target": "ACC_024",
+            "amount": 120.81,
+            "currency": "USD",
+            "timestamp": "2026-02-28T12:56:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d1baba80",
+            "source": "ACC_006",
+            "target": "ACC_004",
+            "amount": 417.06,
+            "currency": "USD",
+            "timestamp": "2026-03-15T21:22:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6b53457d",
+            "source": "ACC_084",
+            "target": "ACC_008",
+            "amount": 4870.32,
+            "currency": "USD",
+            "timestamp": "2026-03-17T22:02:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_29ca85da",
+            "source": "ACC_018",
+            "target": "ACC_097",
+            "amount": 2935.84,
+            "currency": "USD",
+            "timestamp": "2026-03-18T04:21:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a27e332b",
+            "source": "ACC_060",
+            "target": "ACC_030",
+            "amount": 1959.14,
+            "currency": "USD",
+            "timestamp": "2026-02-28T00:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_81a200f3",
+            "source": "ACC_028",
+            "target": "ACC_042",
+            "amount": 930.02,
+            "currency": "USD",
+            "timestamp": "2026-02-20T09:17:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2c20136a",
+            "source": "ACC_027",
+            "target": "ACC_061",
+            "amount": 350.8,
+            "currency": "USD",
+            "timestamp": "2026-03-15T22:38:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6ec2e96a",
+            "source": "ACC_065",
+            "target": "ACC_038",
+            "amount": 3826.39,
+            "currency": "USD",
+            "timestamp": "2026-02-21T14:38:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_aadf3828",
+            "source": "ACC_043",
+            "target": "ACC_075",
+            "amount": 3461.97,
+            "currency": "USD",
+            "timestamp": "2026-02-26T07:17:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7e1769a7",
+            "source": "ACC_073",
+            "target": "ACC_021",
+            "amount": 3749.22,
+            "currency": "USD",
+            "timestamp": "2026-03-10T06:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c6fc7be0",
+            "source": "ACC_100",
+            "target": "ACC_053",
+            "amount": 221.41,
+            "currency": "USD",
+            "timestamp": "2026-03-12T20:47:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_ef505dbe",
+            "source": "ACC_030",
+            "target": "ACC_092",
+            "amount": 970.88,
+            "currency": "USD",
+            "timestamp": "2026-03-06T06:07:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_4d0ce9ab",
+            "source": "ACC_012",
+            "target": "ACC_037",
+            "amount": 2830.25,
+            "currency": "USD",
+            "timestamp": "2026-02-23T02:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_1b18cf22",
+            "source": "ACC_045",
+            "target": "ACC_058",
+            "amount": 4417.44,
+            "currency": "USD",
+            "timestamp": "2026-03-10T20:22:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7a8e8d98",
+            "source": "ACC_074",
+            "target": "ACC_029",
+            "amount": 810.4,
+            "currency": "USD",
+            "timestamp": "2026-02-27T14:27:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_451a1a00",
+            "source": "ACC_057",
+            "target": "ACC_026",
+            "amount": 667.72,
+            "currency": "USD",
+            "timestamp": "2026-03-07T15:40:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2abd6335",
+            "source": "ACC_068",
+            "target": "ACC_031",
+            "amount": 36.39,
+            "currency": "USD",
+            "timestamp": "2026-03-19T19:45:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3ecca3f7",
+            "source": "ACC_079",
+            "target": "ACC_086",
+            "amount": 4766.45,
+            "currency": "USD",
+            "timestamp": "2026-03-05T07:52:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_1a3c39f9",
+            "source": "ACC_070",
+            "target": "ACC_058",
+            "amount": 2568.46,
+            "currency": "USD",
+            "timestamp": "2026-03-14T01:07:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_72087326",
+            "source": "ACC_088",
+            "target": "ACC_094",
+            "amount": 3984.73,
+            "currency": "USD",
+            "timestamp": "2026-03-19T11:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d5352775",
+            "source": "ACC_036",
+            "target": "ACC_090",
+            "amount": 2765.26,
+            "currency": "USD",
+            "timestamp": "2026-03-20T22:09:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c40066dd",
+            "source": "ACC_064",
+            "target": "ACC_100",
+            "amount": 536.65,
+            "currency": "USD",
+            "timestamp": "2026-02-22T01:58:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_360be059",
+            "source": "ACC_037",
+            "target": "ACC_057",
+            "amount": 1419.26,
+            "currency": "USD",
+            "timestamp": "2026-03-11T01:00:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5c0bfc2d",
+            "source": "ACC_039",
+            "target": "ACC_096",
+            "amount": 4013.14,
+            "currency": "USD",
+            "timestamp": "2026-02-22T06:15:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_84562229",
+            "source": "ACC_075",
+            "target": "ACC_055",
+            "amount": 2616.59,
+            "currency": "USD",
+            "timestamp": "2026-03-21T13:51:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_af1b4a74",
+            "source": "ACC_007",
+            "target": "ACC_097",
+            "amount": 3168.2,
+            "currency": "USD",
+            "timestamp": "2026-03-07T16:37:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d1d7c619",
+            "source": "ACC_046",
+            "target": "ACC_025",
+            "amount": 4713.89,
+            "currency": "USD",
+            "timestamp": "2026-02-22T07:02:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_19a54107",
+            "source": "ACC_045",
+            "target": "ACC_014",
+            "amount": 3743.31,
+            "currency": "USD",
+            "timestamp": "2026-03-08T10:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_bade1f93",
+            "source": "ACC_078",
+            "target": "ACC_005",
+            "amount": 282.39,
+            "currency": "USD",
+            "timestamp": "2026-02-26T15:59:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a573d9eb",
+            "source": "ACC_069",
+            "target": "ACC_072",
+            "amount": 4699.83,
+            "currency": "USD",
+            "timestamp": "2026-03-08T07:08:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_589d0a56",
+            "source": "ACC_068",
+            "target": "ACC_058",
+            "amount": 4267.84,
+            "currency": "USD",
+            "timestamp": "2026-02-21T07:10:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d5a2d3d5",
+            "source": "ACC_015",
+            "target": "ACC_067",
+            "amount": 2267.14,
+            "currency": "USD",
+            "timestamp": "2026-02-20T13:59:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b33de54d",
+            "source": "ACC_041",
+            "target": "ACC_075",
+            "amount": 3328.61,
+            "currency": "USD",
+            "timestamp": "2026-03-06T08:15:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_89fb9c73",
+            "source": "ACC_003",
+            "target": "ACC_069",
+            "amount": 2751.93,
+            "currency": "USD",
+            "timestamp": "2026-03-19T16:08:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_e51db557",
+            "source": "ACC_032",
+            "target": "ACC_024",
+            "amount": 3922.01,
+            "currency": "USD",
+            "timestamp": "2026-03-14T11:19:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_e66fc658",
+            "source": "ACC_031",
+            "target": "ACC_066",
+            "amount": 4534.02,
+            "currency": "USD",
+            "timestamp": "2026-02-25T13:58:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_26b5ba4e",
+            "source": "ACC_007",
+            "target": "ACC_035",
+            "amount": 464.07,
+            "currency": "USD",
+            "timestamp": "2026-03-16T04:50:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3812265e",
+            "source": "ACC_015",
+            "target": "ACC_088",
+            "amount": 275.66,
+            "currency": "USD",
+            "timestamp": "2026-03-21T16:39:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_50a19514",
+            "source": "ACC_045",
+            "target": "ACC_010",
+            "amount": 564.17,
+            "currency": "USD",
+            "timestamp": "2026-02-21T23:00:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_046a042d",
+            "source": "ACC_063",
+            "target": "ACC_099",
+            "amount": 1562.92,
+            "currency": "USD",
+            "timestamp": "2026-02-21T16:33:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_ae0f8776",
+            "source": "ACC_049",
+            "target": "ACC_045",
+            "amount": 126.44,
+            "currency": "USD",
+            "timestamp": "2026-03-17T01:34:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_71f3c514",
+            "source": "ACC_071",
+            "target": "ACC_079",
+            "amount": 3153.7,
+            "currency": "USD",
+            "timestamp": "2026-03-08T15:06:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_ec23734d",
+            "source": "ACC_002",
+            "target": "ACC_066",
+            "amount": 1728.57,
+            "currency": "USD",
+            "timestamp": "2026-03-13T02:08:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7f08f5c9",
+            "source": "ACC_037",
+            "target": "ACC_008",
+            "amount": 4821.1,
+            "currency": "USD",
+            "timestamp": "2026-03-04T19:28:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_86d78f26",
+            "source": "ACC_061",
+            "target": "ACC_023",
+            "amount": 2329.71,
+            "currency": "USD",
+            "timestamp": "2026-02-28T01:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_267d9207",
+            "source": "ACC_034",
+            "target": "ACC_053",
+            "amount": 4220.92,
+            "currency": "USD",
+            "timestamp": "2026-03-02T13:25:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_fff08ba1",
+            "source": "ACC_015",
+            "target": "ACC_013",
+            "amount": 737.23,
+            "currency": "USD",
+            "timestamp": "2026-03-18T10:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a87e45b6",
+            "source": "ACC_022",
+            "target": "ACC_079",
+            "amount": 1085.06,
+            "currency": "USD",
+            "timestamp": "2026-03-02T20:11:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6b1e4586",
+            "source": "ACC_076",
+            "target": "ACC_086",
+            "amount": 1436.17,
+            "currency": "USD",
+            "timestamp": "2026-03-10T08:12:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_93f11fd0",
+            "source": "ACC_068",
+            "target": "ACC_071",
+            "amount": 3487.08,
+            "currency": "USD",
+            "timestamp": "2026-03-20T04:55:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_34ab833e",
+            "source": "ACC_008",
+            "target": "ACC_095",
+            "amount": 756.91,
+            "currency": "USD",
+            "timestamp": "2026-02-22T06:46:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_db0f3c86",
+            "source": "ACC_096",
+            "target": "ACC_093",
+            "amount": 4933.83,
+            "currency": "USD",
+            "timestamp": "2026-03-15T21:43:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_826111e9",
+            "source": "ACC_079",
+            "target": "ACC_084",
+            "amount": 2349.96,
+            "currency": "USD",
+            "timestamp": "2026-03-15T23:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_cd5d2544",
+            "source": "ACC_045",
+            "target": "ACC_030",
+            "amount": 4557.16,
+            "currency": "USD",
+            "timestamp": "2026-02-21T18:38:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_85247df4",
+            "source": "ACC_039",
+            "target": "ACC_015",
+            "amount": 2473.01,
+            "currency": "USD",
+            "timestamp": "2026-02-26T11:01:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b27a142e",
+            "source": "ACC_044",
+            "target": "ACC_014",
+            "amount": 2028.92,
+            "currency": "USD",
+            "timestamp": "2026-02-25T06:02:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3913d831",
+            "source": "ACC_065",
+            "target": "ACC_048",
+            "amount": 944.56,
+            "currency": "USD",
+            "timestamp": "2026-02-26T16:30:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_818aecc6",
+            "source": "ACC_038",
+            "target": "ACC_091",
+            "amount": 862.37,
+            "currency": "USD",
+            "timestamp": "2026-02-24T16:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_17a15dfb",
+            "source": "ACC_076",
+            "target": "ACC_081",
+            "amount": 779.44,
+            "currency": "USD",
+            "timestamp": "2026-02-24T00:24:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_928c0e07",
+            "source": "ACC_038",
+            "target": "ACC_066",
+            "amount": 1030.81,
+            "currency": "USD",
+            "timestamp": "2026-03-16T06:49:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2d26d970",
+            "source": "ACC_059",
+            "target": "ACC_095",
+            "amount": 4322.63,
+            "currency": "USD",
+            "timestamp": "2026-03-13T03:47:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c2f92f57",
+            "source": "ACC_039",
+            "target": "ACC_061",
+            "amount": 2191.37,
+            "currency": "USD",
+            "timestamp": "2026-03-16T13:03:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_101973f5",
+            "source": "ACC_033",
+            "target": "ACC_022",
+            "amount": 4275.93,
+            "currency": "USD",
+            "timestamp": "2026-03-08T21:50:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_42d33c76",
+            "source": "ACC_006",
+            "target": "ACC_089",
+            "amount": 2184.61,
+            "currency": "USD",
+            "timestamp": "2026-02-22T15:19:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2e25ec15",
+            "source": "ACC_071",
+            "target": "ACC_003",
+            "amount": 2840.81,
+            "currency": "USD",
+            "timestamp": "2026-03-05T07:10:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_02409ba2",
+            "source": "ACC_100",
+            "target": "ACC_083",
+            "amount": 1081.46,
+            "currency": "USD",
+            "timestamp": "2026-03-11T03:14:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_8877065d",
+            "source": "ACC_040",
+            "target": "ACC_059",
+            "amount": 56.17,
+            "currency": "USD",
+            "timestamp": "2026-03-21T16:30:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d3d76fb5",
+            "source": "ACC_033",
+            "target": "ACC_018",
+            "amount": 1530.65,
+            "currency": "USD",
+            "timestamp": "2026-03-06T04:33:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_398dbd0d",
+            "source": "ACC_029",
+            "target": "ACC_099",
+            "amount": 414.32,
+            "currency": "USD",
+            "timestamp": "2026-03-16T16:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7f17aca1",
+            "source": "ACC_014",
+            "target": "ACC_065",
+            "amount": 3117.06,
+            "currency": "USD",
+            "timestamp": "2026-03-19T11:03:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_28b36ccb",
+            "source": "ACC_010",
+            "target": "ACC_023",
+            "amount": 3246.13,
+            "currency": "USD",
+            "timestamp": "2026-03-07T18:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3f2691a6",
+            "source": "ACC_094",
+            "target": "ACC_083",
+            "amount": 923.97,
+            "currency": "USD",
+            "timestamp": "2026-03-01T23:21:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_616cc37e",
+            "source": "ACC_012",
+            "target": "ACC_080",
+            "amount": 124.75,
+            "currency": "USD",
+            "timestamp": "2026-03-12T11:02:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2a943f2a",
+            "source": "ACC_030",
+            "target": "ACC_043",
+            "amount": 4881.19,
+            "currency": "USD",
+            "timestamp": "2026-03-15T20:49:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_028a01f7",
+            "source": "ACC_068",
+            "target": "ACC_001",
+            "amount": 1654.15,
+            "currency": "USD",
+            "timestamp": "2026-03-13T15:32:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_1ead159b",
+            "source": "ACC_092",
+            "target": "ACC_016",
+            "amount": 3970.46,
+            "currency": "USD",
+            "timestamp": "2026-03-15T18:08:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_fde2f49c",
+            "source": "ACC_004",
+            "target": "ACC_020",
+            "amount": 3421.66,
+            "currency": "USD",
+            "timestamp": "2026-03-08T05:56:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2bda0992",
+            "source": "ACC_092",
+            "target": "ACC_075",
+            "amount": 4667.85,
+            "currency": "USD",
+            "timestamp": "2026-02-27T17:52:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2830d2d2",
+            "source": "ACC_010",
+            "target": "ACC_069",
+            "amount": 1981.84,
+            "currency": "USD",
+            "timestamp": "2026-02-20T20:24:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_bfd705c9",
+            "source": "ACC_003",
+            "target": "ACC_095",
+            "amount": 1585.96,
+            "currency": "USD",
+            "timestamp": "2026-02-20T16:33:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5d081f3a",
+            "source": "ACC_040",
+            "target": "ACC_036",
+            "amount": 2569.33,
+            "currency": "USD",
+            "timestamp": "2026-03-10T22:36:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3cda7360",
+            "source": "ACC_065",
+            "target": "ACC_019",
+            "amount": 495.28,
+            "currency": "USD",
+            "timestamp": "2026-02-26T05:14:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b0fe2f02",
+            "source": "ACC_018",
+            "target": "ACC_065",
+            "amount": 3900.12,
+            "currency": "USD",
+            "timestamp": "2026-03-02T12:46:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c7f287d0",
+            "source": "ACC_073",
+            "target": "ACC_074",
+            "amount": 3040.02,
+            "currency": "USD",
+            "timestamp": "2026-02-28T15:06:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_e6daf0e1",
+            "source": "ACC_054",
+            "target": "ACC_046",
+            "amount": 4502.39,
+            "currency": "USD",
+            "timestamp": "2026-03-06T02:40:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_1f2fef6d",
+            "source": "ACC_016",
+            "target": "ACC_100",
+            "amount": 1311.19,
+            "currency": "USD",
+            "timestamp": "2026-03-11T17:14:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5dbf2825",
+            "source": "ACC_036",
+            "target": "ACC_070",
+            "amount": 888.16,
+            "currency": "USD",
+            "timestamp": "2026-03-04T17:13:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_3f8a4061",
+            "source": "ACC_021",
+            "target": "ACC_024",
+            "amount": 3555.08,
+            "currency": "USD",
+            "timestamp": "2026-02-28T21:20:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_908e9fa7",
+            "source": "ACC_094",
+            "target": "ACC_005",
+            "amount": 169.13,
+            "currency": "USD",
+            "timestamp": "2026-03-20T14:37:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_546de5ea",
+            "source": "ACC_097",
+            "target": "ACC_048",
+            "amount": 3109.34,
+            "currency": "USD",
+            "timestamp": "2026-03-21T00:05:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b2892e1f",
+            "source": "ACC_084",
+            "target": "ACC_087",
+            "amount": 2213.57,
+            "currency": "USD",
+            "timestamp": "2026-02-28T15:46:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_1289c7dc",
+            "source": "ACC_024",
+            "target": "ACC_009",
+            "amount": 618.31,
+            "currency": "USD",
+            "timestamp": "2026-02-27T04:07:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_4324ef0a",
+            "source": "ACC_040",
+            "target": "ACC_036",
+            "amount": 4800.58,
+            "currency": "USD",
+            "timestamp": "2026-03-01T19:25:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_350f7f83",
+            "source": "ACC_061",
+            "target": "ACC_024",
+            "amount": 1133.77,
+            "currency": "USD",
+            "timestamp": "2026-03-21T04:44:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_650e3b8d",
+            "source": "ACC_031",
+            "target": "ACC_023",
+            "amount": 2527.06,
+            "currency": "USD",
+            "timestamp": "2026-03-11T00:03:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6d0b8d5f",
+            "source": "ACC_092",
+            "target": "ACC_071",
+            "amount": 2386.09,
+            "currency": "USD",
+            "timestamp": "2026-03-21T12:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_ceb12a68",
+            "source": "ACC_002",
+            "target": "ACC_087",
+            "amount": 2100.29,
+            "currency": "USD",
+            "timestamp": "2026-03-12T11:40:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7f6a60a1",
+            "source": "ACC_047",
+            "target": "ACC_061",
+            "amount": 1955.5,
+            "currency": "USD",
+            "timestamp": "2026-03-05T20:58:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_11c08ce5",
+            "source": "ACC_011",
+            "target": "ACC_071",
+            "amount": 1541.18,
+            "currency": "USD",
+            "timestamp": "2026-02-23T04:04:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b6372249",
+            "source": "ACC_097",
+            "target": "ACC_085",
+            "amount": 3247.48,
+            "currency": "USD",
+            "timestamp": "2026-02-23T01:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_27f4849f",
+            "source": "ACC_090",
+            "target": "ACC_057",
+            "amount": 4479.3,
+            "currency": "USD",
+            "timestamp": "2026-03-16T22:01:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_55ea0ead",
+            "source": "ACC_090",
+            "target": "ACC_010",
+            "amount": 1186.96,
+            "currency": "USD",
+            "timestamp": "2026-03-16T06:47:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f5cd9054",
+            "source": "ACC_006",
+            "target": "ACC_051",
+            "amount": 1350.5,
+            "currency": "USD",
+            "timestamp": "2026-03-14T05:27:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_9b172c01",
+            "source": "ACC_080",
+            "target": "ACC_077",
+            "amount": 4908.27,
+            "currency": "USD",
+            "timestamp": "2026-03-15T21:18:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_4492c666",
+            "source": "ACC_065",
+            "target": "ACC_024",
+            "amount": 1264.74,
+            "currency": "USD",
+            "timestamp": "2026-03-17T05:48:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_22c47aa0",
+            "source": "ACC_026",
+            "target": "ACC_013",
+            "amount": 3468.98,
+            "currency": "USD",
+            "timestamp": "2026-02-23T10:17:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b753ed44",
+            "source": "ACC_023",
+            "target": "ACC_079",
+            "amount": 3922.68,
+            "currency": "USD",
+            "timestamp": "2026-03-17T08:13:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0d101a6a",
+            "source": "ACC_046",
+            "target": "ACC_007",
+            "amount": 1733.23,
+            "currency": "USD",
+            "timestamp": "2026-03-08T15:34:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b0b40063",
+            "source": "ACC_041",
+            "target": "ACC_094",
+            "amount": 2592.66,
+            "currency": "USD",
+            "timestamp": "2026-03-04T02:28:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_33f53b12",
+            "source": "ACC_026",
+            "target": "ACC_090",
+            "amount": 43.21,
+            "currency": "USD",
+            "timestamp": "2026-03-17T01:51:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b460bbb6",
+            "source": "ACC_098",
+            "target": "ACC_056",
+            "amount": 105.88,
+            "currency": "USD",
+            "timestamp": "2026-03-09T01:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_34fe7913",
+            "source": "ACC_031",
+            "target": "ACC_004",
+            "amount": 2428.53,
+            "currency": "USD",
+            "timestamp": "2026-03-11T03:24:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f087d654",
+            "source": "ACC_004",
+            "target": "ACC_055",
+            "amount": 2986.24,
+            "currency": "USD",
+            "timestamp": "2026-02-21T14:46:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_21261fe9",
+            "source": "ACC_011",
+            "target": "ACC_043",
+            "amount": 21.57,
+            "currency": "USD",
+            "timestamp": "2026-02-20T17:49:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b26f1268",
+            "source": "ACC_032",
+            "target": "ACC_020",
+            "amount": 1197.94,
+            "currency": "USD",
+            "timestamp": "2026-03-17T05:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_52b713ed",
+            "source": "ACC_084",
+            "target": "ACC_078",
+            "amount": 554.95,
+            "currency": "USD",
+            "timestamp": "2026-02-21T20:31:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_4450ec5c",
+            "source": "ACC_001",
+            "target": "ACC_052",
+            "amount": 1954.25,
+            "currency": "USD",
+            "timestamp": "2026-03-17T08:55:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_863090bb",
+            "source": "ACC_041",
+            "target": "ACC_033",
+            "amount": 2156.19,
+            "currency": "USD",
+            "timestamp": "2026-03-15T01:14:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c6555f30",
+            "source": "ACC_059",
+            "target": "ACC_069",
+            "amount": 1983.59,
+            "currency": "USD",
+            "timestamp": "2026-02-21T03:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_20aa8312",
+            "source": "ACC_011",
+            "target": "ACC_052",
+            "amount": 66.06,
+            "currency": "USD",
+            "timestamp": "2026-03-17T11:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_bc293f95",
+            "source": "ACC_067",
+            "target": "ACC_052",
+            "amount": 3672.1,
+            "currency": "USD",
+            "timestamp": "2026-02-26T02:06:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0a6e843d",
+            "source": "ACC_022",
+            "target": "ACC_025",
+            "amount": 957.06,
+            "currency": "USD",
+            "timestamp": "2026-03-21T12:41:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f55946fd",
+            "source": "ACC_005",
+            "target": "ACC_009",
+            "amount": 2109.74,
+            "currency": "USD",
+            "timestamp": "2026-03-17T09:03:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_4692b89b",
+            "source": "ACC_031",
+            "target": "ACC_007",
+            "amount": 1634.71,
+            "currency": "USD",
+            "timestamp": "2026-03-14T17:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5ac17335",
+            "source": "ACC_097",
+            "target": "ACC_049",
+            "amount": 4948.67,
+            "currency": "USD",
+            "timestamp": "2026-02-28T12:11:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f0a6d32d",
+            "source": "ACC_016",
+            "target": "ACC_007",
+            "amount": 3237.38,
+            "currency": "USD",
+            "timestamp": "2026-03-14T22:58:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_fa462c5f",
+            "source": "ACC_061",
+            "target": "ACC_100",
+            "amount": 1805.88,
+            "currency": "USD",
+            "timestamp": "2026-03-08T19:26:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0e288672",
+            "source": "ACC_048",
+            "target": "ACC_084",
+            "amount": 1406.16,
+            "currency": "USD",
+            "timestamp": "2026-03-11T09:45:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_1ff14e1c",
+            "source": "ACC_051",
+            "target": "ACC_055",
+            "amount": 4525.81,
+            "currency": "USD",
+            "timestamp": "2026-03-14T03:33:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_eb7bb273",
+            "source": "ACC_053",
+            "target": "ACC_078",
+            "amount": 2328.23,
+            "currency": "USD",
+            "timestamp": "2026-02-28T20:56:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_934f9890",
+            "source": "ACC_048",
+            "target": "ACC_002",
+            "amount": 1730.09,
+            "currency": "USD",
+            "timestamp": "2026-03-09T06:21:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c8fb98fb",
+            "source": "ACC_088",
+            "target": "ACC_067",
+            "amount": 2563.44,
+            "currency": "USD",
+            "timestamp": "2026-02-22T01:36:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_8c3f4c2d",
+            "source": "ACC_001",
+            "target": "ACC_092",
+            "amount": 3357.24,
+            "currency": "USD",
+            "timestamp": "2026-03-17T10:04:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_14b4f91a",
+            "source": "ACC_001",
+            "target": "ACC_006",
+            "amount": 4245.23,
+            "currency": "USD",
+            "timestamp": "2026-03-05T08:54:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_5122121b",
+            "source": "ACC_042",
+            "target": "ACC_036",
+            "amount": 2040.33,
+            "currency": "USD",
+            "timestamp": "2026-03-06T18:09:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2f5a0c63",
+            "source": "ACC_006",
+            "target": "ACC_032",
+            "amount": 1442.57,
+            "currency": "USD",
+            "timestamp": "2026-03-01T21:53:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_fcac6edb",
+            "source": "ACC_035",
+            "target": "ACC_084",
+            "amount": 959.29,
+            "currency": "USD",
+            "timestamp": "2026-03-01T10:57:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_a81773ba",
+            "source": "ACC_018",
+            "target": "ACC_072",
+            "amount": 3862.6,
+            "currency": "USD",
+            "timestamp": "2026-03-01T08:11:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_027a80ff",
+            "source": "ACC_073",
+            "target": "ACC_072",
+            "amount": 406.28,
+            "currency": "USD",
+            "timestamp": "2026-03-04T09:01:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f225f9ff",
+            "source": "ACC_029",
+            "target": "ACC_020",
+            "amount": 1384.2,
+            "currency": "USD",
+            "timestamp": "2026-03-16T05:41:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_462f4100",
+            "source": "ACC_052",
+            "target": "ACC_091",
+            "amount": 2098.63,
+            "currency": "USD",
+            "timestamp": "2026-03-19T01:18:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_fbb23d99",
+            "source": "ACC_056",
+            "target": "ACC_093",
+            "amount": 642.05,
+            "currency": "USD",
+            "timestamp": "2026-03-18T12:46:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_cdebcfe5",
+            "source": "ACC_017",
+            "target": "ACC_013",
+            "amount": 2270.1,
+            "currency": "USD",
+            "timestamp": "2026-02-22T11:28:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_bc169d1e",
+            "source": "ACC_081",
+            "target": "ACC_068",
+            "amount": 1094.02,
+            "currency": "USD",
+            "timestamp": "2026-03-15T13:55:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_62c2cec8",
+            "source": "ACC_049",
+            "target": "ACC_007",
+            "amount": 4020.19,
+            "currency": "USD",
+            "timestamp": "2026-03-02T11:39:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_36007960",
+            "source": "ACC_005",
+            "target": "ACC_098",
+            "amount": 4434.99,
+            "currency": "USD",
+            "timestamp": "2026-03-08T05:26:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_64308b1c",
+            "source": "ACC_073",
+            "target": "ACC_051",
+            "amount": 611.24,
+            "currency": "USD",
+            "timestamp": "2026-03-20T17:31:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_d85dae9f",
+            "source": "ACC_063",
+            "target": "ACC_003",
+            "amount": 1509.64,
+            "currency": "USD",
+            "timestamp": "2026-03-08T14:15:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_598abbec",
+            "source": "ACC_097",
+            "target": "ACC_072",
+            "amount": 3092.99,
+            "currency": "USD",
+            "timestamp": "2026-02-25T07:03:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b74078ed",
+            "source": "ACC_031",
+            "target": "ACC_030",
+            "amount": 3072.3,
+            "currency": "USD",
+            "timestamp": "2026-02-22T08:49:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_4b30df5e",
+            "source": "ACC_085",
+            "target": "ACC_057",
+            "amount": 2264.64,
+            "currency": "USD",
+            "timestamp": "2026-02-23T13:42:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7d146c6a",
+            "source": "ACC_006",
+            "target": "ACC_025",
+            "amount": 2039.68,
+            "currency": "USD",
+            "timestamp": "2026-02-28T10:24:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f326d670",
+            "source": "ACC_098",
+            "target": "ACC_088",
+            "amount": 1939.6,
+            "currency": "USD",
+            "timestamp": "2026-02-26T17:23:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6ebe0217",
+            "source": "ACC_094",
+            "target": "ACC_083",
+            "amount": 720.2,
+            "currency": "USD",
+            "timestamp": "2026-03-06T16:34:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_e12f1d56",
+            "source": "ACC_052",
+            "target": "ACC_007",
+            "amount": 2819.71,
+            "currency": "USD",
+            "timestamp": "2026-03-13T23:15:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_b2866569",
+            "source": "ACC_094",
+            "target": "ACC_066",
+            "amount": 2955.32,
+            "currency": "USD",
+            "timestamp": "2026-03-01T22:26:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_9f6176f1",
+            "source": "ACC_022",
+            "target": "ACC_036",
+            "amount": 94.7,
+            "currency": "USD",
+            "timestamp": "2026-02-28T21:53:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_8f62f8c4",
+            "source": "ACC_085",
+            "target": "ACC_032",
+            "amount": 4810.98,
+            "currency": "USD",
+            "timestamp": "2026-03-18T10:39:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0ea8dab4",
+            "source": "ACC_092",
+            "target": "ACC_002",
+            "amount": 2526.33,
+            "currency": "USD",
+            "timestamp": "2026-03-09T23:28:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6e46d354",
+            "source": "ACC_077",
+            "target": "ACC_083",
+            "amount": 3705.6,
+            "currency": "USD",
+            "timestamp": "2026-02-23T22:42:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_282564a4",
+            "source": "ACC_019",
+            "target": "ACC_089",
+            "amount": 1667.59,
+            "currency": "USD",
+            "timestamp": "2026-02-20T21:52:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_2c39c8fc",
+            "source": "ACC_046",
+            "target": "ACC_048",
+            "amount": 2279.58,
+            "currency": "USD",
+            "timestamp": "2026-03-08T16:02:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0f279179",
+            "source": "ACC_026",
+            "target": "ACC_053",
+            "amount": 436.32,
+            "currency": "USD",
+            "timestamp": "2026-02-27T14:42:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_7e211b26",
+            "source": "ACC_067",
+            "target": "ACC_010",
+            "amount": 3064.3,
+            "currency": "USD",
+            "timestamp": "2026-03-02T12:55:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_15cbef9b",
+            "source": "ACC_017",
+            "target": "ACC_040",
+            "amount": 1861.22,
+            "currency": "USD",
+            "timestamp": "2026-02-27T04:13:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f5f7fff7",
+            "source": "ACC_092",
+            "target": "ACC_060",
+            "amount": 784.85,
+            "currency": "USD",
+            "timestamp": "2026-02-21T19:09:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_154a27d0",
+            "source": "ACC_080",
+            "target": "ACC_013",
+            "amount": 4140.14,
+            "currency": "USD",
+            "timestamp": "2026-03-12T08:28:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_c088f178",
+            "source": "ACC_009",
+            "target": "ACC_090",
+            "amount": 4195.95,
+            "currency": "USD",
+            "timestamp": "2026-02-24T07:46:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_bf1d1769",
+            "source": "ACC_022",
+            "target": "ACC_079",
+            "amount": 2088.54,
+            "currency": "USD",
+            "timestamp": "2026-03-19T08:45:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_f6af96e7",
+            "source": "ACC_026",
+            "target": "ACC_096",
+            "amount": 3704.76,
+            "currency": "USD",
+            "timestamp": "2026-03-08T11:04:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_0474e595",
+            "source": "ACC_024",
+            "target": "ACC_016",
+            "amount": 4223.7,
+            "currency": "USD",
+            "timestamp": "2026-03-06T17:12:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_e4c25d65",
+            "source": "ACC_025",
+            "target": "ACC_050",
+            "amount": 2398.66,
+            "currency": "USD",
+            "timestamp": "2026-02-24T18:48:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_beb70fd9",
+            "source": "ACC_039",
+            "target": "ACC_051",
+            "amount": 3640.51,
+            "currency": "USD",
+            "timestamp": "2026-02-21T13:53:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_6dd0b7ae",
+            "source": "ACC_004",
+            "target": "ACC_064",
+            "amount": 468.77,
+            "currency": "USD",
+            "timestamp": "2026-03-02T22:34:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_57e3282e",
+            "source": "ACC_029",
+            "target": "ACC_076",
+            "amount": 547.95,
+            "currency": "USD",
+            "timestamp": "2026-03-20T10:15:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_9db9d83b",
+            "source": "ACC_057",
+            "target": "ACC_067",
+            "amount": 2316.2,
+            "currency": "USD",
+            "timestamp": "2026-02-27T03:21:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_N_65a036b6",
+            "source": "ACC_075",
+            "target": "ACC_022",
+            "amount": 2602.27,
+            "currency": "USD",
+            "timestamp": "2026-03-17T20:56:28.269092",
+            "pattern_label": "NORMAL"
+        },
+        {
+            "id": "TXN_L_367bb6a3",
+            "source": "ACC_010",
+            "target": "ACC_020",
+            "amount": 49956.93,
+            "currency": "USD",
+            "timestamp": "2026-02-25T12:14:28.269092",
+            "pattern_label": "LAYERING"
+        },
+        {
+            "id": "TXN_L_d1d1a4c6",
+            "source": "ACC_020",
+            "target": "ACC_030",
+            "amount": 49914.89,
+            "currency": "USD",
+            "timestamp": "2026-02-25T12:16:28.269092",
+            "pattern_label": "LAYERING"
+        },
+        {
+            "id": "TXN_L_8cc8360f",
+            "source": "ACC_030",
+            "target": "ACC_040",
+            "amount": 49884.7,
+            "currency": "USD",
+            "timestamp": "2026-02-25T12:18:28.269092",
+            "pattern_label": "LAYERING"
+        },
+        {
+            "id": "TXN_L_813d1dac",
+            "source": "ACC_040",
+            "target": "ACC_050",
+            "amount": 49857.82,
+            "currency": "USD",
+            "timestamp": "2026-02-25T12:20:28.269092",
+            "pattern_label": "LAYERING"
+        },
+        {
+            "id": "TXN_C_435e451d",
+            "source": "ACC_060",
+            "target": "ACC_070",
+            "amount": 75000.0,
+            "currency": "USD",
+            "timestamp": "2026-03-07T16:12:28.269092",
+            "pattern_label": "CIRCULAR"
+        },
+        {
+            "id": "TXN_C_13571fb6",
+            "source": "ACC_070",
+            "target": "ACC_080",
+            "amount": 75000.0,
+            "currency": "USD",
+            "timestamp": "2026-03-07T17:12:28.269092",
+            "pattern_label": "CIRCULAR"
+        },
+        {
+            "id": "TXN_C_df2e0f32",
+            "source": "ACC_080",
+            "target": "ACC_090",
+            "amount": 75000.0,
+            "currency": "USD",
+            "timestamp": "2026-03-07T20:12:28.269092",
+            "pattern_label": "CIRCULAR"
+        },
+        {
+            "id": "TXN_C_1cf150f1",
+            "source": "ACC_090",
+            "target": "ACC_060",
+            "amount": 75000.0,
+            "currency": "USD",
+            "timestamp": "2026-03-07T21:12:28.269092",
+            "pattern_label": "CIRCULAR"
+        },
+        {
+            "id": "TXN_S_OUT_da567caf",
+            "source": "ACC_001",
+            "target": "ACC_002",
+            "amount": 9500.0,
+            "currency": "USD",
+            "timestamp": "2026-03-12T11:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_4c0eefa6",
+            "source": "ACC_002",
+            "target": "ACC_005",
+            "amount": 9500.0,
+            "currency": "USD",
+            "timestamp": "2026-03-15T14:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        },
+        {
+            "id": "TXN_S_OUT_ce230477",
+            "source": "ACC_001",
+            "target": "ACC_002",
+            "amount": 9800.0,
+            "currency": "USD",
+            "timestamp": "2026-03-12T14:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_ca67de04",
+            "source": "ACC_002",
+            "target": "ACC_005",
+            "amount": 9800.0,
+            "currency": "USD",
+            "timestamp": "2026-03-13T17:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        },
+        {
+            "id": "TXN_S_OUT_f184a5fa",
+            "source": "ACC_001",
+            "target": "ACC_002",
+            "amount": 9200.0,
+            "currency": "USD",
+            "timestamp": "2026-03-12T15:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_1eaf3a4a",
+            "source": "ACC_002",
+            "target": "ACC_005",
+            "amount": 9200.0,
+            "currency": "USD",
+            "timestamp": "2026-03-14T18:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        },
+        {
+            "id": "TXN_S_OUT_e6fcd7ec",
+            "source": "ACC_001",
+            "target": "ACC_003",
+            "amount": 9500.0,
+            "currency": "USD",
+            "timestamp": "2026-03-12T17:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_1d167d77",
+            "source": "ACC_003",
+            "target": "ACC_005",
+            "amount": 9500.0,
+            "currency": "USD",
+            "timestamp": "2026-03-13T21:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        },
+        {
+            "id": "TXN_S_OUT_c7bb5faf",
+            "source": "ACC_001",
+            "target": "ACC_003",
+            "amount": 9800.0,
+            "currency": "USD",
+            "timestamp": "2026-03-12T19:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_65b33b43",
+            "source": "ACC_003",
+            "target": "ACC_005",
+            "amount": 9800.0,
+            "currency": "USD",
+            "timestamp": "2026-03-14T23:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        },
+        {
+            "id": "TXN_S_OUT_0dbb679b",
+            "source": "ACC_001",
+            "target": "ACC_003",
+            "amount": 9200.0,
+            "currency": "USD",
+            "timestamp": "2026-03-12T22:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_3322933a",
+            "source": "ACC_003",
+            "target": "ACC_005",
+            "amount": 9200.0,
+            "currency": "USD",
+            "timestamp": "2026-03-16T01:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        },
+        {
+            "id": "TXN_S_OUT_272cdb7b",
+            "source": "ACC_001",
+            "target": "ACC_004",
+            "amount": 9500.0,
+            "currency": "USD",
+            "timestamp": "2026-03-13T01:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_f2a27159",
+            "source": "ACC_004",
+            "target": "ACC_005",
+            "amount": 9500.0,
+            "currency": "USD",
+            "timestamp": "2026-03-15T02:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        },
+        {
+            "id": "TXN_S_OUT_5c5a77db",
+            "source": "ACC_001",
+            "target": "ACC_004",
+            "amount": 9800.0,
+            "currency": "USD",
+            "timestamp": "2026-03-13T03:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_5b73fee9",
+            "source": "ACC_004",
+            "target": "ACC_005",
+            "amount": 9800.0,
+            "currency": "USD",
+            "timestamp": "2026-03-14T04:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        },
+        {
+            "id": "TXN_S_OUT_4d262557",
+            "source": "ACC_001",
+            "target": "ACC_004",
+            "amount": 9200.0,
+            "currency": "USD",
+            "timestamp": "2026-03-13T04:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_OUT"
+        },
+        {
+            "id": "TXN_S_IN_b56280eb",
+            "source": "ACC_004",
+            "target": "ACC_005",
+            "amount": 9200.0,
+            "currency": "USD",
+            "timestamp": "2026-03-14T05:12:28.269092",
+            "pattern_label": "STRUCTURING_FAN_IN"
+        }
+    ]
+}
